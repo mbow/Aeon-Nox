@@ -2542,7 +2542,7 @@
                         <width>607</width>
                         <height>25</height>
                         <font>Font_Condensed15_Caps</font>
-                        <textcolor>bbe5e5e5</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <align>left</align>
                         <aligny>center</aligny>
@@ -2848,7 +2848,7 @@
                         <width>607</width>
                         <height>25</height>
                         <font>Font_Condensed15_Caps</font>
-                        <textcolor>bbe5e5e5</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <align>right</align>
                         <aligny>center</aligny>
@@ -4252,7 +4252,7 @@
             <width>1650</width>
             <height>25</height>
             <font>Font_Condensed15_Caps</font>
-            <textcolor>bbe5e5e5</textcolor>
+            <textcolor>white3</textcolor>
             <shadowcolor>black</shadowcolor>
             <align>center</align>
             <aligny>center</aligny>

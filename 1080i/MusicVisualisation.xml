@@ -516,15 +516,29 @@
                         <visible>!IsEmpty(Skin.String(Nox.ArtistsLogosPath))</visible>
                         <animation effect="slide" time="400" tween="cubic" easing="inout" end="-35" condition="!Skin.HasSetting(Nox.CDArtinVis) | Skin.HasSetting(Nox.ThumbOrSlide)">Conditional</animation>
                     </control>
-                    <control type="image">
+                    <control type="image" id="8309">
                         <description>Codec</description>
                         <posx>591</posx>
                         <posy>66</posy>
                         <width>150</width>
                         <height>99</height>
                         <colordiffuse>91FFFFFF</colordiffuse>
-                        <texture>$INFO[MusicPlayer.Codec,flags/audio/,.png]</texture>
+                        <texture fallback="empty.png">$INFO[MusicPlayer.Codec,flags/audio/,.png]</texture>
                     </control>
+                       <control type="label">
+                            <posx>591</posx>
+                            <posy>69</posy>
+                            <width>210</width>
+                            <height>86</height>
+                            <align>left</align>
+                            <aligny>center</aligny>
+                            <scroll>false</scroll>
+                            <font>Font_Condensed22</font>
+                            <shadowcolor>black</shadowcolor>
+                            <wrapmultiline>true</wrapmultiline>
+                            <visible>StringCompare(Control.GetLabel(8309),empty.png)</visible>
+                            <label>[COLOR=91FFFFFF]$INFO[MusicPlayer.Codec][/COLOR]</label>
+                        </control>
                     <control type="image">
                         <posx>756</posx>
                         <posy>66</posy>

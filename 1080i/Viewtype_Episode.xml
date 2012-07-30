@@ -39,6 +39,7 @@
                 <pagecontrol>61</pagecontrol>
                 <visible>Container.Content(episodes) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Window.IsActive(musiclibrary)</visible>
                 <animation effect="slide" start="0,0" end="-40,0" time="300" tween="cubic" easing="inout" condition="Control.HasFocus(61)">Conditional</animation>
+                <animation effect="slide" start="0,0" end="-40,0" time="300" tween="cubic" easing="inout" condition="Container.Content(episodes)">Conditional</animation>
                 <animation effect="slide" start="0,0" end="0,65" time="0" condition="Skin.HasSetting(Nox.ClassicTopBar) | Skin.HasSetting(Nox.altbreadcrumbstexture)">Conditional</animation>
                 <animation effect="slide" end="0,15" time="200" condition="Container(514).Row(0)">Conditional</animation>
                 <animation effect="slide" end="0,8" time="200" condition="Container(514).Row(1)">Conditional</animation>
