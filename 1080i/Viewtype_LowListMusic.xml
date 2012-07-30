@@ -525,7 +525,7 @@
                     <control type="image">
                         <width>135</width>
                         <height>88</height>
-                        <colordiffuse>FFe1e1e1</colordiffuse>
+                        <colordiffuse>white2</colordiffuse>
                         <fadetime>IconCrossfadeTime2</fadetime>
                         <include>Animation_CommonFade</include>
                         <texture>$INFO[ListItem.FileExtension,flags/audio/,.png]</texture>
@@ -533,7 +533,7 @@
                     <control type="image">
                         <width>135</width>
                         <height>88</height>
-                        <colordiffuse>FFe1e1e1</colordiffuse>
+                        <colordiffuse>white2</colordiffuse>
                         <texture fallback="flags/source/defaultsource.png">$INFO[ListItem.Property(Album_Label),flags/music/recordlabel/,.png]</texture>
                         <fadetime>IconCrossfadeTime2</fadetime>
                         <visible>!IsEmpty(ListItem.Album) + Container.Content(albums)</visible>

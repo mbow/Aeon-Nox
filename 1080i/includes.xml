@@ -1072,7 +1072,7 @@
                 <width>50</width>
                 <aligny>center</aligny>
                 <font>Font_Condensed14</font>
-                <textcolor>black</textcolor>
+                <textcolor>FF000000</textcolor>
                 <scroll>false</scroll>
                 <align>center</align>
             </control>

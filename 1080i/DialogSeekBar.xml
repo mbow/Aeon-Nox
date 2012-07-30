@@ -771,7 +771,7 @@
                             <height>68</height>
                             <align>center</align>
                             <aligny>bottom</aligny>
-                            <textcolor>FFe1e1e1</textcolor>
+                            <textcolor>white2</textcolor>
                             <font>Font_ShowcaseMainLabel2_Caps</font>
                             <label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
                             <scroll>true</scroll>
@@ -1040,7 +1040,7 @@
                                     <align>center</align>
                                     <aligny>center</aligny>
                                     <font>Font_ShowcaseMainLabel2_Caps</font>
-                                    <textcolor>FFe1e1e1</textcolor>
+                                    <textcolor>white2</textcolor>
                                     <label>[UPPERCASE][B]$INFO[VideoPlayer.ChannelName][/B][/UPPERCASE]</label>
                                     <scroll>true</scroll>
                                     <visible>VideoPlayer.Content(LiveTV)</visible>
