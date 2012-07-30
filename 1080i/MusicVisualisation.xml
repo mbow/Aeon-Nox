@@ -758,6 +758,18 @@
                                 <texture background="true" fallback="DefaultArtist.png" diffuse="thumbs/boxes/cdcover_mask.png">$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
                                 <aspectratio scalediffuse="false">scale</aspectratio>
                             </control>
+                           <control type="multiimage">
+                                <posy>19</posy>
+                                <posx>22</posx>
+                                <width>380</width>
+                                <height>354</height>
+                                <imagepath background="true">$INFO[Skin.String(Nox.ArtistsLogosPath)]$INFO[MusicPlayer.Artist,,/extrafanart/]</imagepath>
+                                <aspectratio scalediffuse="false">scale</aspectratio>
+                                <visible>!System.HasAddon(script.artistslideshow)</visible>
+                                <timeperimage>5000</timeperimage>
+                                <fadetime>750</fadetime>
+                                <randomize>true</randomize>
+                            </control>
                             <control type="multiimage">
                                 <posy>19</posy>
                                 <posx>22</posx>
@@ -765,6 +777,7 @@
                                 <height>354</height>
                                 <imagepath background="true" diffuse="thumbs/boxes/cdcover_mask.png">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
                                 <aspectratio scalediffuse="false">scale</aspectratio>
+                                <visible>System.HasAddon(script.artistslideshow)</visible>
                                 <timeperimage>5000</timeperimage>
                                 <fadetime>750</fadetime>
                                 <randomize>true</randomize>

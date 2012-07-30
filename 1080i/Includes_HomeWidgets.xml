@@ -762,12 +762,12 @@
                 <posx>22</posx>
                 <width>380</width>
                 <height>354</height>
-                <imagepath background="true" diffuse="thumbs/boxes/cdcover_mask.png">DefaultArtist.png</imagepath>
+                <imagepath background="true">$INFO[Skin.String(Nox.ArtistsLogosPath)]$INFO[MusicPlayer.Artist,,/extrafanart/]</imagepath>
+                <visible>!System.HasAddon(script.artistslideshow)</visible>
                 <aspectratio scalediffuse="false">scale</aspectratio>
                 <timeperimage>5000</timeperimage>
                 <fadetime>750</fadetime>
                 <randomize>true</randomize>
-                <visible>Window.IsActive(1124)</visible>
             </control>
             <control type="multiimage">
                 <posy>19</posy>
@@ -775,6 +775,7 @@
                 <width>380</width>
                 <height>354</height>
                 <imagepath background="true" diffuse="thumbs/boxes/cdcover_mask.png">$INFO[Window(Visualisation).Property(ArtistSlideshow)]</imagepath>
+                <visible>System.HasAddon(script.artistslideshow)</visible>
                 <aspectratio scalediffuse="false">scale</aspectratio>
                 <timeperimage>5000</timeperimage>
                 <fadetime>750</fadetime>
@@ -1096,7 +1097,7 @@
                             <align>left</align>
                             <font>Font_Reg19</font>
                             <label fallback="312577">$INFO[VideoPlayer.CastAndRole]</label>
-                            <textcolor>FFececec</textcolor>
+                            <textcolor>white2</textcolor>
                             <autoscroll>false</autoscroll>
                             <animation effect="slide" time="400" tween="cubic" easing="inout" start="0" end="160" condition="Skin.HasSetting(Nox.ShowBackgroundVideo)">Conditional</animation>
                             <visible>Skin.HasSetting(Nox.nowplayingpanel) + !VideoPlayer.Content(episodes)</visible>
@@ -1110,7 +1111,7 @@
                             <align>left</align>
                             <font>Font_Reg19</font>
                             <label fallback="312577">$INFO[VideoPlayer.CastAndRole]</label>
-                            <textcolor>FFececec</textcolor>
+                            <textcolor>white2</textcolor>
                             <autoscroll>false</autoscroll>
                             <visible>Skin.HasSetting(Nox.nowplayingpanel) + VideoPlayer.Content(episodes)</visible>
                             <animation effect="slide" time="400" tween="cubic" easing="inout" start="0" end="-15" condition="Skin.HasSetting(Nox.ShowBackgroundVideo)">Conditional</animation>
@@ -1124,7 +1125,7 @@
                             <align>left</align>
                             <font>Font_Reg19</font>
                             <label fallback="312577">$INFO[VideoPlayer.Plot]</label>
-                            <textcolor>FFececec</textcolor>
+                            <textcolor>white2</textcolor>
                             <autoscroll delay="5000" time="5000" repeat="10000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                             <visible>Skin.HasSetting(Nox.nowplayingpanel)</visible>
                         </control>

@@ -726,7 +726,7 @@
                     <width>1050</width>
                     <font>Font_Reg38_Caps</font>
                     <label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <animation effect="slide" start="0,-38" end="0,-38" time="0" condition="[!IsEmpty(VideoPlayer.Tagline) + VideoPlayer.Content(movies)] | VideoPlayer.Content(episodes) | VideoPlayer.Content(musicvideos)">Conditional</animation>
                 </control>
                 <control type="label">
@@ -922,7 +922,7 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <font>Font_Reg19</font>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <label fallback="312577">$INFO[VideoPlayer.Director]</label>
                 </control>
                 <control type="label">
@@ -934,7 +934,7 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <font>Font_Reg19</font>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <label fallback="312577">$INFO[VideoPlayer.Writer]</label>
                 </control>
                 <control type="label">
@@ -946,7 +946,7 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <font>Font_Reg19</font>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <label>$INFO[VideoPlayer.time,, / ]$INFO[VideoPlayer.duration]</label>
                 </control>
                 <control type="label">
@@ -958,7 +958,7 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <font>Font_Reg19</font>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <label fallback="-">$INFO[VideoPlayer.RatingAndVotes]$INFO[VideoPlayer.Top250, / $LOCALIZE[13409] #]</label>
                 </control>
                 <control type="textbox">
@@ -970,7 +970,7 @@
                     <align>left</align>
                     <font>Font_Reg19</font>
                     <label fallback="312577">$INFO[VideoPlayer.CastAndRole]</label>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <autoscroll delay="5000" time="5000" repeat="10000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                 </control>
                 <control type="textbox">
@@ -984,7 +984,7 @@
                     <pagecontrol>60</pagecontrol>
                     <label fallback="312577">$INFO[VideoPlayer.Plot]</label>
                     <autoscroll delay="15000" time="5000" repeat="10000">Skin.HasSetting(Nox.AutoScroll) + !Control.HasFocus(60)</autoscroll>
-                    <textcolor>FFececec</textcolor>
+                    <textcolor>white2</textcolor>
                     <visible>!Control.IsVisible(50)</visible>
                 </control>
                 <control type="grouplist">
@@ -1105,7 +1105,7 @@
                 <width>947</width>
                 <height>44</height>
                 <textcolor>FF868686</textcolor>
-                <focusedcolor>FFececec</focusedcolor>
+                <focusedcolor>white2</focusedcolor>
                 <disabledcolor>66868686</disabledcolor>
                 <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                 <texturenofocus>dialogs/context_nofocus.png</texturenofocus>
