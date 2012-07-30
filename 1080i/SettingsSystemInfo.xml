@@ -41,7 +41,7 @@
                 <aspectratio>stretch</aspectratio>
                 <fadetime>600</fadetime>
                 <texture>common/black.png</texture>
-                <colordiffuse>AAFFFFFF</colordiffuse>
+                <colordiffuse>white3</colordiffuse>
             </control>
             <control type="grouplist" id="7000">
                 <posx>63</posx>
@@ -61,7 +61,7 @@
                     <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                     <texturenofocus>-</texturenofocus>
                     <font>Font_Bold20</font>
-                    <textcolor>dcbdbdbd</textcolor>
+                    <textcolor>grey</textcolor>
                     <focusedcolor>white2</focusedcolor>
                     <selectedcolor>white</selectedcolor>
                     <textoffsety>18</textoffsety>
@@ -80,7 +80,7 @@
                     <onleft>ActivateWindow(1121)</onleft>
                     <texturenofocus>-</texturenofocus>
                     <font>Font_Bold20</font>
-                    <textcolor>dcbdbdbd</textcolor>
+                    <textcolor>grey</textcolor>
                     <focusedcolor>white2</focusedcolor>
                     <selectedcolor>white</selectedcolor>
                     <textoffsety>18</textoffsety>
@@ -99,7 +99,7 @@
                     <onleft>ActivateWindow(1121)</onleft>
                     <texturenofocus>-</texturenofocus>
                     <font>Font_Bold20</font>
-                    <textcolor>dcbdbdbd</textcolor>
+                    <textcolor>grey</textcolor>
                     <focusedcolor>white2</focusedcolor>
                     <selectedcolor>white</selectedcolor>
                     <textoffsety>18</textoffsety>
@@ -118,7 +118,7 @@
                     <onleft>ActivateWindow(1121)</onleft>
                     <texturenofocus>-</texturenofocus>
                     <font>Font_Bold20</font>
-                    <textcolor>dcbdbdbd</textcolor>
+                    <textcolor>grey</textcolor>
                     <focusedcolor>white2</focusedcolor>
                     <selectedcolor>white</selectedcolor>
                     <textoffsety>18</textoffsety>
@@ -137,7 +137,7 @@
                     <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
                     <texturenofocus>-</texturenofocus>
                     <font>Font_Bold20</font>
-                    <textcolor>dcbdbdbd</textcolor>
+                    <textcolor>grey</textcolor>
                     <focusedcolor>white2</focusedcolor>
                     <selectedcolor>white</selectedcolor>
                     <textoffsety>18</textoffsety>

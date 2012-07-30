@@ -158,7 +158,7 @@
                 <textureradiofocus>common/arrowright.png</textureradiofocus>
                 <textureradionofocus></textureradionofocus>
                 <selected>Skin.HasSetting(Nox.showcaseinfoonep) + Skin.HasSetting(Nox.infopaneautoep)</selected>
-                <textcolor>77ffffff</textcolor>
+                <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
                 <disabledcolor>3cFFFFFF</disabledcolor>
                 <textoffsetx>15</textoffsetx>
@@ -196,7 +196,7 @@
                 <textureradiofocus>common/arrowright.png</textureradiofocus>
                 <textureradionofocus></textureradionofocus>
                 <selected>Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)</selected>
-                <textcolor>77ffffff</textcolor>
+                <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
                 <disabledcolor>3cFFFFFF</disabledcolor>
                 <textoffsetx>15</textoffsetx>
@@ -234,7 +234,7 @@
                 <textureradiofocus>common/arrowright.png</textureradiofocus>
                 <textureradionofocus></textureradionofocus>
                 <selected>Skin.HasSetting(Nox.showcaseinfoon) + Skin.HasSetting(Nox.infopaneauto)</selected>
-                <textcolor>77ffffff</textcolor>
+                <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
                 <disabledcolor>3cFFFFFF</disabledcolor>
                 <textoffsetx>15</textoffsetx>
@@ -307,7 +307,7 @@
                 <textureradiofocus>common/arrowright.png</textureradiofocus>
                 <textureradionofocus></textureradionofocus>
                 <selected>Skin.HasSetting(Nox.infopanellauncher) + Skin.HasSetting(Nox.infopaneautolauncher)</selected>
-                <textcolor>77ffffff</textcolor>
+                <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
                 <disabledcolor>3cFFFFFF</disabledcolor>
                 <textoffsetx>15</textoffsetx>
@@ -353,7 +353,7 @@
                 <textureradiofocus>common/arrowright.png</textureradiofocus>
                 <textureradionofocus></textureradionofocus>
                 <selected>Skin.HasSetting(Nox.infopanelmusic) + Skin.HasSetting(Nox.infopaneautomusic)</selected>
-                <textcolor>77ffffff</textcolor>
+                <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
                 <disabledcolor>3cFFFFFF</disabledcolor>
                 <textoffsetx>15</textoffsetx>

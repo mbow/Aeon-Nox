@@ -280,7 +280,7 @@
                     <onright>9009</onright>
                     <control type="button" id="401">
                         <label>script.color.picker</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(script.color.picker)</visible>
@@ -294,7 +294,7 @@
                     </control>
                     <control type="button" id="403">
                         <label>script.watchlist</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.watchlist)</visible>
@@ -308,7 +308,7 @@
                     </control>
                     <control type="button" id="405">
                         <label>script.tvtunes</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.tvtunes)</visible>
@@ -322,7 +322,7 @@
                     </control>
                     <control type="button" id="407">
                         <label>script.widget.weatherworld</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(script.widget.weatherworld)</visible>
@@ -336,7 +336,7 @@
                     </control>
                     <control type="button" id="409">
                         <label>script.metadata.actors</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.metadata.actors)</visible>
@@ -350,7 +350,7 @@
                     </control>
                     <control type="button" id="430">
                         <label>weather.google</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(weather.google)</visible>
@@ -364,7 +364,7 @@
                     </control>
                     <control type="button" id="432">
                         <label>script.artistslideshow</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.artistslideshow)</visible>
@@ -378,7 +378,7 @@
                     </control>
                     <control type="button" id="434">
                         <label>script.tv.show.next.aired</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.tv.show.next.aired)</visible>
@@ -405,7 +405,7 @@
                     <ondown>450</ondown>
                     <control type="button" id="411">
                         <label>weather.fanart.pda.style</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(weather.fanart.pda.style)</visible>
@@ -419,7 +419,7 @@
                     </control>
                     <control type="button" id="413">
                         <label>plugin.image.mypicsdb</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(plugin.image.mypicsdb)</visible>
@@ -433,7 +433,7 @@
                     </control>
                     <control type="button" id="415">
                         <label>script.ExtraMusicInfo</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(script.ExtraMusicInfo)</visible>
@@ -447,7 +447,7 @@
                     </control>
                     <control type="button" id="417">
                         <label>script.cinema.experience</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.cinema.experience)</visible>
@@ -461,7 +461,7 @@
                     </control>
                     <control type="button" id="419">
                         <label>script.randommovie</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.randommovie)</visible>
@@ -475,7 +475,7 @@
                     </control>
                     <control type="button" id="421">
                         <label>script.randomandlastitems</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.randomandlastitems)</visible>
@@ -489,7 +489,7 @@
                     </control>
  <!--                    <control type="button" id="423">
                         <label>script.moviesets</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>Notification($LOCALIZE[42002],$LOCALIZE[42271])</onclick>
                         <visible>!System.HasAddon(script.moviesets)</visible>
@@ -503,7 +503,7 @@
                     </control> -->
                     <control type="button" id="436">
                         <label>script.rssclient</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.rssclient)</visible>
@@ -517,7 +517,7 @@
                     </control>
                     <control type="button" id="425">
                         <label>script.song-to-musicvideo</label>
-                        <label2>[COLOR FFFF0000]$LOCALIZE[106][/COLOR]</label2>
+                        <label2>[COLOR red]$LOCALIZE[106][/COLOR]</label2>
                         <include>Default_SettingRadioButtonShort</include>
                         <onclick>-</onclick>
                         <visible>!System.HasAddon(script.song-to-musicvideo)</visible>

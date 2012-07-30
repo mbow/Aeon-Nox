@@ -70,7 +70,7 @@
                         <align>right</align>
                         <label>$VAR[EpisodeSubTitleVar]</label>
                         <font>Font_Condensed20</font>
-                        <textcolor>ffaaaaaa</textcolor>
+                        <textcolor>grey</textcolor>
                     </control>
                     <control type="image">
                         <posx>1285</posx>
@@ -213,7 +213,7 @@
                             <align>right</align>
                             <label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , $LOCALIZE[12391]]$INFO[ListItem.RatingAndVotes, • ]</label>
                             <font>Font_Condensed20</font>
-                            <textcolor>ffaaaaaa</textcolor>
+                            <textcolor>grey</textcolor>
                             <visible>!IsEmpty(ListItem.Title)</visible>
                         </control>
                         <control type="textbox">
@@ -275,7 +275,7 @@
                             <align>right</align>
                             <label>$INFO[ListItem.Date]$INFO[ListItem.Rating, • ]</label>
                             <font>Font_Condensed20</font>
-                            <textcolor>ffaaaaaa</textcolor>
+                            <textcolor>grey</textcolor>
                             <visible>!IsEmpty(ListItem.Title)</visible>
                         </control>
                         <control type="textbox">
@@ -323,7 +323,7 @@
                         <align>right</align>
                         <label>$VAR[InfoWallBottomLabel1Var]$INFO[ListItem.Rating, • ]</label>
                         <font>Font_Condensed20</font>
-                        <textcolor>ffaaaaaa</textcolor>
+                        <textcolor>grey</textcolor>
                     </control>
                     <control type="image">
                         <posx>1337</posx>
@@ -392,7 +392,7 @@
                             <align>right</align>
                             <label>$VAR[InfoWallBottomLabel1Var]$INFO[ListItem.Genre, • ]</label>
                             <font>Font_Condensed20</font>
-                            <textcolor>ffaaaaaa</textcolor>
+                            <textcolor>grey</textcolor>
                         </control>
                         <control type="textbox">
                             <posx>99</posx>

@@ -114,7 +114,7 @@
                     <usealttexture>[Player.Paused | Player.Forwarding | Player.Rewinding] | Player.HasVideo | !Player.HasMedia</usealttexture>
                     <alttexturefocus>special://skin/extras/BigIcons/ButtonPlay.png</alttexturefocus>
                     <alttexturenofocus>special://skin/extras/BigIcons/ButtonPlay.png</alttexturenofocus>
-                    <colordiffuse>77FFFFFF</colordiffuse>
+                    <colordiffuse>grey2</colordiffuse>
                     <onclick>PlayMedia($INFO[Window(Home).Property(LatestAlbum.2.Path)])</onclick>
                     <ondown>450</ondown>
                     <onup>450</onup>
@@ -145,7 +145,7 @@
                     <usealttexture>[Player.Paused | Player.Forwarding | Player.Rewinding] | Player.HasAudio | !Player.HasMedia</usealttexture>
                     <alttexturefocus>special://skin/extras/BigIcons/ButtonPlay.png</alttexturefocus>
                     <alttexturenofocus>special://skin/extras/BigIcons/ButtonPlay.png</alttexturenofocus>
-                    <colordiffuse>77FFFFFF</colordiffuse>
+                    <colordiffuse>grey2</colordiffuse>
                     <onclick>PlayMedia($INFO[Window(Home).Property(LatestMovie.1.Path)],1)</onclick>
                     <ondown>20</ondown>
                     <onup>20</onup>

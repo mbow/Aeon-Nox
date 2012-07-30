@@ -232,7 +232,7 @@
         <posx>158</posx>
         <width>564</width>
         <height>32</height>
-        <textcolor>abFFFFFF</textcolor>
+        <textcolor>white3</textcolor>
         <align>left</align>
         <font>Font_Reg18</font>
         <scroll>true</scroll>
@@ -257,7 +257,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>15</textoffsetx>
@@ -280,7 +280,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf2.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>105</textoffsetx>
@@ -303,7 +303,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>15</textoffsetx>
@@ -324,7 +324,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>15</textoffsetx>
@@ -348,7 +348,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf3.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>15</textoffsetx>
@@ -421,16 +421,16 @@
         <selectedcolor>white</selectedcolor>
     </include>
     <include name="detailcolornofocus">
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <selectedcolor>$VAR[SelectedColorVar]</selectedcolor>
     </include>
     <include name="TvTunesVisibleCondition">
         <visible>IsEmpty(Window(videolibrary).Property(tvtunesIsAlive))</visible>
     </include>
     <include name="Objects_KeyOffVars">
-        <textcolor>77FFFFFF</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>FFFFFFFF</focusedcolor>
-        <selectedcolor>77FFFFFF</selectedcolor>
+        <selectedcolor>grey2</selectedcolor>
         <align>center</align>
         <aligny>top</aligny>
         <textoffsety>32</textoffsety>
@@ -453,9 +453,9 @@
         <height>102</height>
         <texturefocus>keyboard/keyboard_doublef.png</texturefocus>
         <texturenofocus>keyboard/keyboard_doublenf.png</texturenofocus>
-        <textcolor>77FFFFFF</textcolor>
-        <focusedcolor>77FFFFFF</focusedcolor>
-        <selectedcolor>77FFFFFF</selectedcolor>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>grey2</focusedcolor>
+        <selectedcolor>grey2</selectedcolor>
         <align>center</align>
         <aligny>top</aligny>
         <textoffsety>32</textoffsety>
@@ -473,7 +473,7 @@
         <control type="image">
             <description>background image</description>
             <include>FullscreenDimensions</include>
-            <colordiffuse>AAFFFFFF</colordiffuse>
+            <colordiffuse>white3</colordiffuse>
             <texture>common/black.png</texture>
             <animation effect="fade" start="0" end="100" time="300">WindowOpen</animation>
             <animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
@@ -1087,7 +1087,7 @@
         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
         <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-        <textcolor>77ffffff</textcolor>
+        <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
         <disabledcolor>3cFFFFFF</disabledcolor>
         <textoffsetx>15</textoffsetx>
@@ -1142,7 +1142,7 @@
     <include name="DialogBackFade">
         <control type="image">
             <include>FullscreenDimensions</include>
-            <colordiffuse>AAFFFFFF</colordiffuse>
+            <colordiffuse>BBFFFFFF</colordiffuse>
             <texture>common/black.png</texture>
             <animation effect="fade" start="100" end="0" time="300" condition="Window.IsVisible(fullscreenvideo)">Conditional</animation>
             <animation effect="fade" start="0" end="100" time="700">WindowOpen</animation>

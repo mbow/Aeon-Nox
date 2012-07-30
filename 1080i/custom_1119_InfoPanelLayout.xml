@@ -228,7 +228,7 @@
             <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
             <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
             <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-            <textcolor>77ffffff</textcolor>
+            <textcolor>grey2</textcolor>
             <focusedcolor>white6</focusedcolor>
             <disabledcolor>3cFFFFFF</disabledcolor>
             <textoffsetx>10</textoffsetx>

@@ -34,7 +34,7 @@
             <posy>404</posy>
             <width>1923</width>
             <height>780</height>
-            <colordiffuse>88FFFFFF</colordiffuse>
+            <colordiffuse>grey2</colordiffuse>
             <texture>home/nowplaying_shadow.png</texture>
         </control>
         <control type="image">
@@ -792,7 +792,7 @@
                     <align>right</align>
                     <aligny>center</aligny>
                     <textoffsetx>15</textoffsetx>
-                    <textcolor>77ffffff</textcolor>
+                    <textcolor>grey2</textcolor>
                     <selectedcolor>selected</selectedcolor>
                     <shadowcolor>black</shadowcolor>
                     <label>$INFO[ListItem.Duration]</label>
@@ -831,7 +831,7 @@
                         <align>right</align>
                         <aligny>center</aligny>
                         <textoffsetx>15</textoffsetx>
-                        <textcolor>77ffffff</textcolor>
+                        <textcolor>grey2</textcolor>
                         <selectedcolor>selected</selectedcolor>
                         <shadowcolor>black</shadowcolor>
                         <label>$INFO[ListItem.Duration]</label>

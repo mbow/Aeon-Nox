@@ -251,7 +251,7 @@
                             <posy>0</posy>
                             <width>562</width>
                             <height>104</height>
-                            <colordiffuse>DDFFFFFF</colordiffuse>
+                            <colordiffuse>white6</colordiffuse>
                             <aspectratio>stretch</aspectratio>
                             <texture>common/black.png</texture>
                         </control>

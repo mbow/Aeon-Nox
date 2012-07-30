@@ -645,7 +645,7 @@
                             <width>570</width>
                             <font>Font_Reg18</font>
                             <visible>![[[Skin.HasSetting(Nox.movielogosfloor) + Container.Content(movies)] | [[Skin.HasSetting(Nox.tvshowlogosfloor) | Skin.HasSetting(Nox.tvshowbannersfloor)] + Container.Content(tvshows)]] + !Stringcompare(Control.GetLabel(8827),empty.png)]</visible>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <scroll>true</scroll>
                             <scrollspeed>20</scrollspeed>
                             <animation effect="fade" start="0" end="100" time="100" delay="100" reversible="false">Visible</animation>

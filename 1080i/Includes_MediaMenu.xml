@@ -390,7 +390,7 @@
                         <width>500</width>
                         <texturenofocus>settings/listselect_nf2.png</texturenofocus>
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
-                        <textcolor>77ffffff</textcolor>
+                        <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
                         <disabledcolor>3cFFFFFF</disabledcolor>
                         <textoffsetx>110</textoffsetx>
@@ -413,7 +413,7 @@
                         <width>500</width>
                         <texturenofocus>settings/listselect_nf2.png</texturenofocus>
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
-                        <textcolor>77ffffff</textcolor>
+                        <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
                         <disabledcolor>3cFFFFFF</disabledcolor>
                         <textoffsetx>105</textoffsetx>
@@ -438,7 +438,7 @@
                         <width>400</width>
                         <texturenofocus>settings/listselect_nf2.png</texturenofocus>
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
-                        <textcolor>77ffffff</textcolor>
+                        <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
                         <disabledcolor>3cFFFFFF</disabledcolor>
                         <textoffsetx>105</textoffsetx>
@@ -483,7 +483,7 @@
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
                         <alttexturenofocus>settings/listselect_nf.png</alttexturenofocus>
                         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
-                        <textcolor>77ffffff</textcolor>
+                        <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
                         <disabledcolor>3cFFFFFF</disabledcolor>
                         <textoffsetx>15</textoffsetx>
@@ -779,6 +779,7 @@
         <width>90</width>
         <height>90</height>
         <posx>10</posx>
+        <colordiffuse>white</colordiffuse>
     </include>
     <include name="Media_Menu_NowPlaying">
         <control type="group" id="4000">

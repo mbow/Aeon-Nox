@@ -390,7 +390,7 @@
         <control type="group">
             <control type="image">
                 <include>FullscreenDimensions</include>
-                <colordiffuse>CCFFFFFF</colordiffuse>
+                <colordiffuse>white6</colordiffuse>
                 <visible>Control.HasFocus(22222) | Control.HasFocus(22223)</visible>
                 <include>Animation_VisibleChange400</include>
                 <texture>common/black.png</texture>

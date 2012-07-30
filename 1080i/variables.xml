@@ -100,7 +100,7 @@
         <value condition="Skin.HasTheme(Lite_Floor)">FFFFFFFF</value>
         <value condition="!Skin.HasSetting(Nox.randomcolor) + ![Skin.HasSetting(Nox.DisableGlowbar) + !Skin.HasSetting(Nox.ExtendedGlowMode)]">$VAR[AreaColorVar]</value>
         <value condition="Skin.HasSetting(Nox.randomcolor) + ![Skin.HasSetting(Nox.DisableGlowbar) + !Skin.HasSetting(Nox.ExtendedGlowMode)]">$VAR[DayTimeColorVar]</value>
-        <value>FF000000</value>
+        <value>black</value>
     </variable>
     <variable name="HomeMenuTextFocusVar">
         <value condition="Skin.HasSetting(Nox.colortexthome)">$VAR[ColorDiffuseVar]</value>
@@ -143,7 +143,7 @@
     <variable name="TitleColorVar">
         <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[ColorDiffuseVar]</value>
         <value condition="[Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortexthome)">$VAR[ColorDiffuseVar]</value>
-        <value>CCFFFFFF</value>
+        <value>white6</value>
     </variable>
     <variable name="SubTitleColorVar">
         <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[ColorDiffuseVar]</value>
@@ -515,7 +515,7 @@
     </variable>
     <variable name="PosterPanelValue5Var">
         <value condition="[Container.Content(movies) | IsEmpty(ListItem.TvShowTitle)] + !Container.ListItem.IsResumable">$INFO[ListItem.Duration,, $LOCALIZE[12391]]</value>
-        <value condition="[Container.Content(movies) | IsEmpty(ListItem.TvShowTitle)] + Container.ListItem.IsResumable">$INFO[ListItem.Duration,, $LOCALIZE[12391]][COLOR abFFFFFF]$INFO[ListItem.PercentPlayed, (,%)][/COLOR]</value>
+        <value condition="[Container.Content(movies) | IsEmpty(ListItem.TvShowTitle)] + Container.ListItem.IsResumable">$INFO[ListItem.Duration,, $LOCALIZE[12391]][COLOR white3]$INFO[ListItem.PercentPlayed, (,%)][/COLOR]</value>
         <value condition="[Container.Content(tvshows) | Container.Content(seasons)] + !Skin.HasSetting(Nox.NextAiredInfo)">$VAR[NextEpisodeVar]</value>
         <value condition="[Container.Content(tvshows) | Container.Content(seasons)]">$INFO[Listitem.Genre]</value>
     </variable>
@@ -663,7 +663,7 @@
         <value condition="Container.Content(albums) + IsEmpty(ListItem.Property(Album_Description))">$LOCALIZE[414]</value>
         <value condition="Container.Content(artists) + !IsEmpty(ListItem.Property(Artist_Description))">$INFO[ListItem.Property(Artist_Description)]</value>
         <value condition="Container.Content(artists) + IsEmpty(ListItem.Property(Artist_Description))">$LOCALIZE[547]</value>
-        <value condition="Container.Content(songs) | Window.IsActive(pictures)">[COLOR abFFFFFF]$LOCALIZE[569]: [/COLOR]$INFO[ListItem.Comment]</value>
+        <value condition="Container.Content(songs) | Window.IsActive(pictures)">[COLOR white3]$LOCALIZE[569]: [/COLOR]$INFO[ListItem.Comment]</value>
         <value>$INFO[ListItem.Plot]</value>
     </variable>
     <variable name="WidgetTypeLabelVar">
@@ -1549,15 +1549,15 @@
         <value>$LOCALIZE[106]</value>
     </variable>
     <variable name="NowPlayingTextBoxLabelVar">
-        <value condition="Window.IsActive(visualisation) + !Skin.HasSetting(Nox.activatepanelrotation)">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR ccffffff],[/COLOR][CR]]$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR ccffffff],[/COLOR][CR]]$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR ccffffff],[/COLOR]]</value>
-        <value condition="!IsEmpty(MusicPlayer.Property(Album_Description))">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR ccffffff],[/COLOR][CR]]</value>
-        <value condition="!IsEmpty(MusicPlayer.Property(Artist_Description))">$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR ccffffff],[/COLOR][CR]]</value>
-        <value condition="!IsEmpty(Window(visualisation).Property(ArtistSlideshow.ArtistBiography))">$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR ccffffff],[/COLOR]]</value>
+        <value condition="Window.IsActive(visualisation) + !Skin.HasSetting(Nox.activatepanelrotation)">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR white6],[/COLOR][CR]]$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR white6],[/COLOR][CR]]$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR white6],[/COLOR]]</value>
+        <value condition="!IsEmpty(MusicPlayer.Property(Album_Description))">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR white6],[/COLOR][CR]]</value>
+        <value condition="!IsEmpty(MusicPlayer.Property(Artist_Description))">$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR white6],[/COLOR][CR]]</value>
+        <value condition="!IsEmpty(Window(visualisation).Property(ArtistSlideshow.ArtistBiography))">$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR white6],[/COLOR]]</value>
     </variable>
     <variable name="NowPlayingTextBoxLabelVar2">
-        <value condition="!IsEmpty(Window(visualisation).Property(ArtistSlideshow.ArtistBiography))">$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR ccffffff],[/COLOR]]</value>
-        <value condition="!IsEmpty(MusicPlayer.Property(Artist_Description))">$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR ccffffff],[/COLOR][CR]]</value>
-        <value condition="!IsEmpty(MusicPlayer.Property(Album_Description))">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR ccffffff],[/COLOR][CR]]</value>
+        <value condition="!IsEmpty(Window(visualisation).Property(ArtistSlideshow.ArtistBiography))">$INFO[Window(visualisation).Property(ArtistSlideshow.ArtistBiography),$LOCALIZE[21887]:  [COLOR white6],[/COLOR]]</value>
+        <value condition="!IsEmpty(MusicPlayer.Property(Artist_Description))">$INFO[MusicPlayer.Property(Artist_Description),$LOCALIZE[24017]: [COLOR white6],[/COLOR][CR]]</value>
+        <value condition="!IsEmpty(MusicPlayer.Property(Album_Description))">$INFO[MusicPlayer.Property(Album_Description),$LOCALIZE[24016]:  [COLOR white6],[/COLOR][CR]]</value>
     </variable>
     <variable name="InfoPanelToggleLabelVar">
         <value condition="[Container.Content(tvshows) | Container.Content(seasons)] + Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)">$LOCALIZE[31194]</value>
@@ -1585,8 +1585,8 @@
         <value>$LOCALIZE[20373]</value>
     </variable>
     <variable name="BreadCrumbsContentColorVar">
-        <value condition="Skin.HasSetting(Nox.altbreadcrumbstexture)">CCFFFFFF</value>
-        <value>88FFFFFF</value>
+        <value condition="Skin.HasSetting(Nox.altbreadcrumbstexture)">white6</value>
+        <value>grey2</value>
     </variable>
     <variable name="CustomItemFanartLabelVar">
         <value condition="IsEmpty(Skin.String(Nox.ItemToEdit.MultiFanart))">$LOCALIZE[571]</value>
@@ -1742,7 +1742,7 @@
     </variable>
     <variable name="FakeListRCB">
         <value condition="Control.HasFocus(500) | Control.HasFocus(600) | Control.HasFocus(700) | Control.HasFocus(800) | Control.HasFocus(900)">$VAR[SelectedColorVar]</value>
-        <value>77ffffff</value>
+        <value>grey2</value>
     </variable>
     <variable name="LandscapeLogoLabelVar">
         <value condition="Container.Content(movies)">$INFO[Listitem.Tagline]</value>

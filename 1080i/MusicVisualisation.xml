@@ -146,7 +146,7 @@
                     <font>Font_Condensed22_Caps</font>
                     <textcolor>$VAR[TitleColorVar]</textcolor>
                     <shadowcolor>bcshadow</shadowcolor>
-                    <label>[COLOR 88FFFFFF] $INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)][/COLOR]  •  $INFO[System.Time]       </label>
+                    <label>[COLOR grey2] $INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)][/COLOR]  •  $INFO[System.Time]       </label>
                 </control>
                 <control type="group">
                     <posx>0</posx>
@@ -225,7 +225,7 @@
                 <posy>-400</posy>
                 <width>1923</width>
                 <height>780</height>
-                <colordiffuse>88FFFFFF</colordiffuse>
+                <colordiffuse>grey2</colordiffuse>
                 <texture>home/nowplaying_shadow.png</texture>
             </control>
             <control type="multiimage">
@@ -791,7 +791,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  1: [/COLOR]$INFO[MusicPlayer.Offset(1).Artist] - $INFO[MusicPlayer.Offset(1).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                         </control>
@@ -801,7 +801,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  2: [/COLOR]$INFO[MusicPlayer.Offset(2).Artist] - $INFO[MusicPlayer.Offset(2).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(2).Title)</visible>
@@ -812,7 +812,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  3: [/COLOR]$INFO[MusicPlayer.Offset(3).Artist] - $INFO[MusicPlayer.Offset(3).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(3).Title)</visible>
@@ -823,7 +823,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  4: [/COLOR]$INFO[MusicPlayer.Offset(4).Artist] - $INFO[MusicPlayer.Offset(4).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(4).Title)</visible>
@@ -834,7 +834,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  5: [/COLOR]$INFO[MusicPlayer.Offset(5).Artist] - $INFO[MusicPlayer.Offset(5).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(5).Title)</visible>
@@ -845,7 +845,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  6: [/COLOR]$INFO[MusicPlayer.Offset(6).Artist] - $INFO[MusicPlayer.Offset(6).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(6).Title)</visible>
@@ -856,7 +856,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  7: [/COLOR]$INFO[MusicPlayer.Offset(7).Artist] - $INFO[MusicPlayer.Offset(7).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(7).Title)</visible>
@@ -867,7 +867,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  8: [/COLOR]$INFO[MusicPlayer.Offset(8).Artist] - $INFO[MusicPlayer.Offset(8).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(8).Title)</visible>
@@ -878,7 +878,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  9: [/COLOR]$INFO[MusicPlayer.Offset(9).Artist] - $INFO[MusicPlayer.Offset(9).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(9).Title)</visible>
@@ -889,7 +889,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]10: [/COLOR]$INFO[MusicPlayer.Offset(10).Artist] - $INFO[MusicPlayer.Offset(10).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(10).Title)</visible>
@@ -900,7 +900,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]11: [/COLOR]$INFO[MusicPlayer.Offset(11).Artist] - $INFO[MusicPlayer.Offset(11).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(11).Title)</visible>
@@ -911,7 +911,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]12: [/COLOR]$INFO[MusicPlayer.Offset(12).Artist] - $INFO[MusicPlayer.Offset(12).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(12).Title)</visible>
@@ -922,7 +922,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]13: [/COLOR]$INFO[MusicPlayer.Offset(13).Artist] - $INFO[MusicPlayer.Offset(13).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(13).Title)</visible>
@@ -933,7 +933,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]14: [/COLOR]$INFO[MusicPlayer.Offset(14).Artist] - $INFO[MusicPlayer.Offset(14).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(14).Title)</visible>
@@ -944,7 +944,7 @@
                             <width>580</width>
                             <height>26</height>
                             <aligny>left</aligny>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]15: [/COLOR]$INFO[MusicPlayer.Offset(15).Artist] - $INFO[MusicPlayer.Offset(15).Title][/UPPERCASE]</label>
                             <font>Font_Reg14_Caps</font>
                             <visible>!IsEmpty(MusicPlayer.Offset(15).Title)</visible>

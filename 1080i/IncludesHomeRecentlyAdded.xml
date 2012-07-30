@@ -410,7 +410,7 @@
                             <height>45</height>
                             <aligny>center</aligny>
                             <posy>0</posy>
-                            <textcolor>ccffffff</textcolor>
+                            <textcolor>white6</textcolor>
                             <label>[COLOR=$VAR[HomeMenuWidgetTextVar]]$LOCALIZE[345]: [/COLOR]$INFO[Container(8000).ListItem.Property(Year)]</label>
                             <font>Font_Reg20</font>
                         </control>
@@ -420,7 +420,7 @@
                             <height>45</height>
                             <aligny>center</aligny>
                             <posy>0</posy>
-                            <textcolor>ccffffff</textcolor>
+                            <textcolor>white6</textcolor>
                             <label>[COLOR=$VAR[HomeMenuWidgetTextVar]]$LOCALIZE[31095]: [/COLOR]$INFO[Container(8000).ListItem.Property(Rating)]</label>
                             <font>Font_Reg20</font>
                         </control>
@@ -430,7 +430,7 @@
                             <height>45</height>
                             <aligny>center</aligny>
                             <posy>0</posy>
-                            <textcolor>ccffffff</textcolor>
+                            <textcolor>white6</textcolor>
                             <label>[COLOR=$VAR[HomeMenuWidgetTextVar]]$LOCALIZE[2050]: [/COLOR] $INFO[Container(8000).ListItem.Property(RunningTime),, $LOCALIZE[12391]]</label>
                             <font>Font_Reg20</font>
                         </control>
@@ -455,7 +455,7 @@
                         <align>justify</align>
                         <aligny>top</aligny>
                         <font>Font_Reg20</font>
-                        <textcolor>ccffffff</textcolor>
+                        <textcolor>white6</textcolor>
                         <label>$INFO[Container(8000).ListItem.Label2]</label>
                         <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                     </control>
@@ -652,7 +652,7 @@
                         <width>800</width>
                         <height>38</height>
                         <font>Font_Reg22_Caps</font>
-                        <textcolor>abFFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <aligny>left</aligny>
                         <label>[UPPERCASE]$INFO[Container(8000).ListItem.Label][/UPPERCASE]</label>
                     </control>
@@ -661,7 +661,7 @@
                         <width>800</width>
                         <height>150</height>
                         <font>Font_Reg20_Caps</font>
-                        <textcolor>abFFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <aligny>left</aligny>
                         <wrapmultiline>true</wrapmultiline>
                         <label fallback="-">[UPPERCASE]$INFO[Container(8000).ListItem.Property(Album)][/UPPERCASE]</label>
@@ -673,7 +673,7 @@
                         <width>688</width>
                         <height>150</height>
                         <font>Font_Reg18</font>
-                        <textcolor>abFFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <align>justify</align>
                         <aligny>top</aligny>
                         <label fallback="-">$INFO[Container(8000).ListItem.Property(Summary)]$INFO[Container(8000).ListItem.Property(Album_Description)]$INFO[Container(8000).ListItem.Property(Artist_Description)]</label>

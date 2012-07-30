@@ -7,7 +7,7 @@
             <control type="image">
                 <include>FullscreenDimensions</include>
                 <texture>views/list_filter.png</texture>
-                <colordiffuse>AAFFFFFF</colordiffuse>
+                <colordiffuse>white3</colordiffuse>
             </control>
             <control type="group">
                 <description>Main info items outside list</description>
@@ -914,7 +914,7 @@
                             <aspectratio align="center">stretch</aspectratio>
                             <texture>common/black.png</texture>
                             <bordersize>5</bordersize>
-                            <colordiffuse>77FFFFFF</colordiffuse>
+                            <colordiffuse>grey2</colordiffuse>
                         </control>
                     </control>
                 </itemlayout>

@@ -223,7 +223,7 @@
                 <font>Font_Condensed22_Caps</font>
                 <textcolor>$VAR[HomeMenuWidgetTextVar]</textcolor>
                 <shadowcolor>-</shadowcolor>
-                <label>[COLOR ffaaaaaa]$INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)]  •[/COLOR]  $INFO[System.Time]</label>
+                <label>[COLOR grey]$INFO[System.Date(DDD)], $INFO[System.Date(d)] $INFO[System.Date(mmm)] $INFO[System.Date(yyyy)]  •[/COLOR]  $INFO[System.Time]</label>
                 <animation effect="slide" start="0,0" end="0,-472" time="400" tween="cubic" easing="inout" condition="Skin.HasSetting(Nox.timehomehigh)">Conditional</animation>
                 <animation effect="slide" start="0" end="-60" time="200" tween="quadratic" easing="out" condition="Window.IsActive(mutebug) + Skin.HasSetting(Nox.timehomehigh)">Conditional</animation>
             </control>
@@ -317,7 +317,7 @@
                     <textcolor>$VAR[RSSLabelColorVar]</textcolor>
                     <shadowcolor>-</shadowcolor>
                     <textoffsetx>5</textoffsetx>
-                    <label>$INFO[Window(Home).Property(peopleborntoday.1.name)][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.1.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.2.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.2.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.3.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.3.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.4.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.4.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.5.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.5.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.6.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.6.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.7.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.7.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.8.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.8.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.9.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.9.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.10.name), | ][COLOR=ffaaaaaa]$INFO[Window.Property(peopleborntoday.10.job), • ][/COLOR]</label>
+                    <label>$INFO[Window(Home).Property(peopleborntoday.1.name)][COLOR=grey]$INFO[Window.Property(peopleborntoday.1.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.2.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.2.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.3.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.3.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.4.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.4.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.5.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.5.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.6.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.6.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.7.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.7.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.8.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.8.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.9.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.9.job), • ][/COLOR]$INFO[Window(Home).Property(peopleborntoday.10.name), | ][COLOR=grey]$INFO[Window.Property(peopleborntoday.10.job), • ][/COLOR]</label>
                     <scroll>true</scroll>
                     <wrapmultiline>false</wrapmultiline>
                     <scrollspeed>40</scrollspeed>
@@ -589,7 +589,7 @@
                 <control type="label">
                     <posx>720</posx>
                     <posy>975</posy>
-                    <textcolor>abFFFFFF</textcolor>
+                    <textcolor>white3</textcolor>
                     <label>[UPPERCASE]$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Title]$INFO[VideoPlayer.Year, (,)][/UPPERCASE]</label>
                     <width>600</width>
                     <wrapmultiline>true</wrapmultiline>
@@ -628,7 +628,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  1: [/COLOR]$INFO[MusicPlayer.Offset(1).Artist] - $INFO[MusicPlayer.Offset(1).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
             </control>
@@ -638,7 +638,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  2: [/COLOR]$INFO[MusicPlayer.Offset(2).Artist] - $INFO[MusicPlayer.Offset(2).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(2).Title)</visible>
@@ -649,7 +649,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  3: [/COLOR]$INFO[MusicPlayer.Offset(3).Artist] - $INFO[MusicPlayer.Offset(3).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(3).Title)</visible>
@@ -660,7 +660,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  4: [/COLOR]$INFO[MusicPlayer.Offset(4).Artist] - $INFO[MusicPlayer.Offset(4).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(4).Title)</visible>
@@ -671,7 +671,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  5: [/COLOR]$INFO[MusicPlayer.Offset(5).Artist] - $INFO[MusicPlayer.Offset(5).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(5).Title)</visible>
@@ -682,7 +682,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  6: [/COLOR]$INFO[MusicPlayer.Offset(6).Artist] - $INFO[MusicPlayer.Offset(6).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(6).Title)</visible>
@@ -694,7 +694,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  7: [/COLOR]$INFO[MusicPlayer.Offset(7).Artist] - $INFO[MusicPlayer.Offset(7).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(7).Title)</visible>
@@ -706,7 +706,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  8: [/COLOR]$INFO[MusicPlayer.Offset(8).Artist] - $INFO[MusicPlayer.Offset(8).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(8).Title)</visible>
@@ -718,7 +718,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]  9: [/COLOR]$INFO[MusicPlayer.Offset(9).Artist] - $INFO[MusicPlayer.Offset(9).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(9).Title)</visible>
@@ -730,7 +730,7 @@
                 <width>724</width>
                 <height>38</height>
                 <aligny>left</aligny>
-                <textcolor>abFFFFFF</textcolor>
+                <textcolor>white3</textcolor>
                 <label>[UPPERCASE][COLOR $VAR[TitleColorVar]]10: [/COLOR]$INFO[MusicPlayer.Offset(10).Artist] - $INFO[MusicPlayer.Offset(10).Title][/UPPERCASE]</label>
                 <font>Font_Info_Caps</font>
                 <visible>!IsEmpty(MusicPlayer.Offset(10).Title)</visible>
@@ -946,7 +946,7 @@
                 <control type="label">
                     <posy>768</posy>
                     <include>Furniture_HomeNowPlayingMetrics</include>
-                    <textcolor>abFFFFFF</textcolor>
+                    <textcolor>white3</textcolor>
                     <label>[UPPERCASE]$INFO[MusicPlayer.Album][/UPPERCASE]</label>
                     <font>Font_Info_Caps</font>
                     <animation effect="slide" time="400" tween="cubic" easing="inout" end="98" condition="!Skin.HasSetting(Nox.disablecdart)">Conditional</animation>
@@ -986,7 +986,7 @@
                     <width>650</width>
                     <height>80</height>
                     <posy>975</posy>
-                    <textcolor>abFFFFFF</textcolor>
+                    <textcolor>white3</textcolor>
                     <wrapmultiline>true</wrapmultiline>
                     <label>[UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE]</label>
                     <font>Font_Reg22_Caps</font>
@@ -1196,7 +1196,7 @@
                     <align>justify</align>
                     <aligny>top</aligny>
                     <font>Font_Reg15</font>
-                    <textcolor>ccffffff</textcolor>
+                    <textcolor>white6</textcolor>
                     <label>$VAR[NowPlayingTextBoxLabelVar]</label>
                     <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                 </control>
@@ -3121,7 +3121,7 @@
                         <align>justify</align>
                         <aligny>top</aligny>
                         <font>Font_Condensed22</font>
-                        <textcolor>ccffffff</textcolor>
+                        <textcolor>white6</textcolor>
                         <label>$INFO[Container(5010).ListItem.Label2]</label>
                         <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                     </control>
@@ -3350,7 +3350,7 @@
                         <align>justify</align>
                         <aligny>top</aligny>
                         <font>Font_Condensed22</font>
-                        <textcolor>ccffffff</textcolor>
+                        <textcolor>white6</textcolor>
                         <label>$INFO[Container(5010).ListItem.Property(Plot)]</label>
                         <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                     </control>
@@ -3544,7 +3544,7 @@
                         <align>justify</align>
                         <aligny>top</aligny>
                         <font>Font_Condensed22</font>
-                        <textcolor>ccffffff</textcolor>
+                        <textcolor>white6</textcolor>
                         <label fallback="414">$VAR[WidgetTextboxVar]</label>
                         <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                         <visible>![Substring(Control.GetLabel(4321),pics) | Substring(Control.GetLabel(4321),song)]</visible>
@@ -3712,7 +3712,7 @@
                         <align>justify</align>
                         <aligny>top</aligny>
                         <font>Font_Condensed22</font>
-                        <textcolor>ccffffff</textcolor>
+                        <textcolor>white6</textcolor>
                         <label fallback="414">$INFO[Container(5010).ListItem.Property(Summary)]</label>
                         <autoscroll delay="5000" time="5000" repeat="8000">Skin.HasSetting(Nox.AutoScroll)</autoscroll>
                     </control>

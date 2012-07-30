@@ -7,7 +7,7 @@
             <control type="image">
                 <include>FullscreenDimensions</include>
                 <texture>common/black.png</texture>
-                <colordiffuse>aaffffff</colordiffuse>
+                <colordiffuse>white3</colordiffuse>
                 <animation effect="fade" time="250">WindowOpen</animation>
                 <animation effect="fade" time="250">WindowClose</animation>
                 <animation effect="fade" start="0" end="100" time="200">Visible</animation>
@@ -202,7 +202,7 @@
                                 <align>justify</align>
                                 <aligny>top</aligny>
                                 <font>Font_Condensed22</font>
-                                <textcolor>ccffffff</textcolor>
+                                <textcolor>white6</textcolor>
                                 <label>$VAR[GlobalPlotVar]</label>
                                 <autoscroll>false</autoscroll>
                             </control>
@@ -254,7 +254,7 @@
                                 <align>justify</align>
                                 <aligny>top</aligny>
                                 <font>Font_Condensed22</font>
-                                <textcolor>ccffffff</textcolor>
+                                <textcolor>white6</textcolor>
                                 <label>$VAR[GlobalPlotVar]</label>
                                 <autoscroll>false</autoscroll>
                             </control>
@@ -397,7 +397,7 @@
                                 <align>justify</align>
                                 <aligny>top</aligny>
                                 <font>Font_Condensed22</font>
-                                <textcolor>ccffffff</textcolor>
+                                <textcolor>white6</textcolor>
                                 <label>$VAR[GlobalPlotVar]</label>
                                 <autoscroll>false</autoscroll>
                             </control>
@@ -449,7 +449,7 @@
                                 <align>justify</align>
                                 <aligny>top</aligny>
                                 <font>Font_Condensed22</font>
-                                <textcolor>ccffffff</textcolor>
+                                <textcolor>white6</textcolor>
                                 <label>$VAR[GlobalPlotVar]</label>
                                 <autoscroll>false</autoscroll>
                             </control>
@@ -860,7 +860,7 @@
                 <align>justify</align>
                 <aligny>top</aligny>
                 <font>Font_Condensed22</font>
-                <textcolor>ccffffff</textcolor>
+                <textcolor>white6</textcolor>
                 <label>$VAR[GlobalPlotOutlineVar]</label>
                 <autoscroll>false</autoscroll>
             </control>
@@ -912,7 +912,7 @@
                 <align>justify</align>
                 <aligny>top</aligny>
                 <font>Font_Condensed22</font>
-                <textcolor>ccffffff</textcolor>
+                <textcolor>white6</textcolor>
                 <label>$VAR[GlobalPlotVar]</label>
                 <autoscroll>false</autoscroll>
             </control>
@@ -1030,7 +1030,7 @@
                 <align>justify</align>
                 <aligny>top</aligny>
                 <font>Font_Condensed22</font>
-                <textcolor>ccffffff</textcolor>
+                <textcolor>white6</textcolor>
                 <label>$VAR[GlobalPlotOutlineVar]</label>
                 <autoscroll>false</autoscroll>
             </control>
@@ -1082,7 +1082,7 @@
                 <align>justify</align>
                 <aligny>top</aligny>
                 <font>Font_Condensed22</font>
-                <textcolor>ccffffff</textcolor>
+                <textcolor>white6</textcolor>
                 <label>$VAR[GlobalPlotVar]</label>
                 <autoscroll>false</autoscroll>
             </control>

@@ -22,7 +22,7 @@
             <width>1920</width>
             <height>1080</height>
             <texture>common/black.png</texture>
-            <colordiffuse>aaffffff</colordiffuse>
+            <colordiffuse>white3</colordiffuse>
             <animation effect="fade" start="0" end="100" time="550" delay="200">Visible</animation>
             <animation effect="fade" start="100" end="0" time="100">Hidden</animation>
             <visible>[Skin.HasSetting(Nox.darkinfopane) | !Skin.HasSetting(Nox.DisableGlowbar)] + ![Control.IsVisible(52) + [[!Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackground)] | [Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackgroundmovies)]]]</visible>
@@ -30,7 +30,7 @@
         <control type="image">
             <include>FullscreenDimensions</include>
             <texture>common/black.png</texture>
-            <colordiffuse>ccffffff</colordiffuse>
+            <colordiffuse>white6</colordiffuse>
             <animation effect="fade" start="0" end="100" time="550" delay="200">Visible</animation>
             <animation effect="fade" start="100" end="0" time="100">Hidden</animation>
             <visible>Control.IsVisible(52) + [[!Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackground)] | [Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackgroundmovies)]]</visible>
@@ -1304,7 +1304,7 @@
                             <height>20</height>
                             <width>570</width>
                             <font>Font_Reg18</font>
-                            <textcolor>abFFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <scroll>true</scroll>
                             <label>$INFO[ListItem.Property(genre)]</label>
                         </control>
@@ -2369,7 +2369,7 @@
                                 <width>170</width>
                                 <height>27</height>
                                 <texture fallback="stars/0.0.png">$INFO[ListItem.Property(rating),stars/,.png]</texture>
-                                <colordiffuse>dcbdbdbd</colordiffuse>
+                                <colordiffuse>grey</colordiffuse>
                             </control>
                         </itemlayout>
                         <focusedlayout height="98" condition="!Skin.HasSetting(Nox.slimlist)">
@@ -3237,7 +3237,7 @@
             <height>10</height>
             <align>left</align>
             <scroll>true</scroll>
-            <textcolor>DDFFFFFF</textcolor>
+            <textcolor>white6</textcolor>
             <label></label>
             <font>font10</font>
         </control>

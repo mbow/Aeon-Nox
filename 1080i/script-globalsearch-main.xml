@@ -220,7 +220,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -272,7 +272,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -603,7 +603,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -655,7 +655,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1031,7 +1031,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1083,7 +1083,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1459,7 +1459,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1511,7 +1511,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1843,7 +1843,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -1895,7 +1895,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -2225,7 +2225,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -2277,7 +2277,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -2609,7 +2609,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -2661,7 +2661,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -2993,7 +2993,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>
@@ -3045,7 +3045,7 @@
                                         <height>60</height>
                                         <label>[B]$INFO[ListItem.Label2][/B]</label>
                                         <font>Font_Condensed22</font>
-                                        <textcolor>88FFFFFF</textcolor>
+                                        <textcolor>grey2</textcolor>
                                         <align>right</align>
                                         <aligny>center</aligny>
                                         <textoffsetx>10</textoffsetx>

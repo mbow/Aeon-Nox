@@ -1376,7 +1376,7 @@
                     <posy>68</posy>
                     <width>780</width>
                     <height>45</height>
-                    <textcolor>abFFFFFF</textcolor>
+                    <textcolor>white3</textcolor>
                     <align>left</align>
                     <font>Font_Reg19</font>
                     <textoffsetx>45</textoffsetx>
@@ -1392,7 +1392,7 @@
                     <font>Font_Reg19</font>
                     <label>106</label>
                     <textcolor>grey2</textcolor>
-                    <focusedcolor>abFFFFFF</focusedcolor>
+                    <focusedcolor>white3</focusedcolor>
                     <disabledcolor>80FFFFFF</disabledcolor>
                     <align>center</align>
                     <textoffsetx>30</textoffsetx>
@@ -1416,7 +1416,7 @@
                     <font>Font_Reg19</font>
                     <label>107</label>
                     <textcolor>grey2</textcolor>
-                    <focusedcolor>abFFFFFF</focusedcolor>
+                    <focusedcolor>white3</focusedcolor>
                     <disabledcolor>80FFFFFF</disabledcolor>
                     <align>center</align>
                     <textoffsetx>30</textoffsetx>

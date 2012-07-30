@@ -55,7 +55,7 @@
                 <width>1920</width>
                 <height>920</height>
                 <texture>common/black.png</texture>
-                <colordiffuse>aaffffff</colordiffuse>
+                <colordiffuse>white3</colordiffuse>
                 <animation effect="fade" start="0" end="100" time="550" delay="200">VisibleChange</animation>
                 <visible>Skin.HasSetting(Nox.darkinfopane)</visible>
             </control>

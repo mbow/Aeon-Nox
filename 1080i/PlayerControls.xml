@@ -1716,7 +1716,7 @@
                         <posy>210</posy>
                         <height>90</height>
                         <width>750</width>
-                        <label>[COLOR AAa7a4a4]$LOCALIZE[31713][/COLOR][COLOR AAFFFFFF] $INFO[MusicPlayer.PlayListLength][/COLOR]</label>
+                        <label>[COLOR AAa7a4a4]$LOCALIZE[31713][/COLOR][COLOR white3] $INFO[MusicPlayer.PlayListLength][/COLOR]</label>
                         <align>left</align>
                         <font>Font_Reg18</font>
                         <textcolor>AA777777</textcolor>
@@ -1729,7 +1729,7 @@
                         <posy>255</posy>
                         <height>90</height>
                         <width>750</width>
-                        <label>[COLOR AAa7a4a4]$LOCALIZE[31714][/COLOR][COLOR AAFFFFFF] $INFO[MusicPlayer.PlayListPosition][/COLOR]</label>
+                        <label>[COLOR AAa7a4a4]$LOCALIZE[31714][/COLOR][COLOR white3] $INFO[MusicPlayer.PlayListPosition][/COLOR]</label>
                         <align>left</align>
                         <font>Font_Reg18</font>
                         <textcolor>AA777777</textcolor>

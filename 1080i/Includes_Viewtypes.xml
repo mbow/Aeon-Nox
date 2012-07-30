@@ -640,6 +640,7 @@
             <control type="group">
                 <include>Animation_OpenClose_Furniture</include>
                 <visible>[Control.IsVisible(518) + !Skin.HasSetting(Nox.fspanelfanart)]| Control.IsVisible(52) | Control.IsVisible(53) | Control.IsVisible(50) | Control.IsVisible(500) | [Control.IsVisible(512) + ![[!Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackground)] | [Container.Content(movies) + Skin.HasSetting(Nox.addonwallaltbackgroundmovies)]]] | Control.IsVisible(500) | Control.IsVisible(550)| Control.IsVisible(508)</visible>
+                <visible>false</visible>
                 <control type="image">
                     <width>1920</width>
                     <height>206</height>

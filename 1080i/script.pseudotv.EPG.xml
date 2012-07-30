@@ -88,7 +88,7 @@
             </control>
             <control type="button" id="100">
                 <visible>false</visible>
-                <label>77ffffff</label>
+                <label>grey2</label>
                 <!--un-focused text color-->
                 <label2>FFe5e5e5</label2>
                 <!--focused text color-->
