@@ -1620,7 +1620,7 @@
                 <width>88</width>
                 <height>88</height>
                 <texture background="true">$INFO[ListItem.Property(BigIcon)]</texture>
-                <colordiffuse>55FFFFFF</colordiffuse>
+                <colordiffuse>white5</colordiffuse>
             </control>
             <control type="label">
                 <posx>297</posx>
@@ -1665,7 +1665,7 @@
                     <width>88</width>
                     <height>88</height>
                     <texture background="true">$INFO[ListItem.Property(BigIcon)]</texture>
-                    <colordiffuse>55FFFFFF</colordiffuse>
+                    <colordiffuse>white5</colordiffuse>
                 </control>
                 <control type="label">
                     <posx>297</posx>
@@ -2197,7 +2197,7 @@
                 <width>88</width>
                 <height>88</height>
                 <texture background="true">$INFO[ListItem.Property(BigIcon)]</texture>
-                <colordiffuse>55FFFFFF</colordiffuse>
+                <colordiffuse>white5</colordiffuse>
             </control>
             <control type="label">
                 <posx>297</posx>
@@ -2252,7 +2252,7 @@
                     <width>88</width>
                     <height>88</height>
                     <texture background="true">$INFO[ListItem.Property(BigIcon)]</texture>
-                    <colordiffuse>55FFFFFF</colordiffuse>
+                    <colordiffuse>white5</colordiffuse>
                 </control>
                 <control type="label">
                     <posx>297</posx>

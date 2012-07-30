@@ -298,7 +298,7 @@
                             <width>88</width>
                             <height>88</height>
                             <texture>$INFO[ListItem.Thumb]</texture>
-                            <colordiffuse>55FFFFFF</colordiffuse>
+                            <colordiffuse>white5</colordiffuse>
                         </control>
                         <control type="label">
                             <posx>107</posx>

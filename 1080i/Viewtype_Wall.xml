@@ -251,7 +251,7 @@
                     <aspectratio align="center">stretch</aspectratio>
                     <texture>common/black.png</texture>
                     <bordersize>5</bordersize>
-                    <colordiffuse>55FFFFFF</colordiffuse>
+                    <colordiffuse>white5</colordiffuse>
                 </control>
             </control>
         </itemlayout>
@@ -307,7 +307,7 @@
                 <height>268</height>
                 <include>Animation_VisibleChange200</include>
                 <visible>Skin.HasSetting(Nox.ExtendedGlowMode)</visible>
-                <colordiffuse>55FFFFFF</colordiffuse>
+                <colordiffuse>white5</colordiffuse>
                 <texture>common/black.png</texture>
             </control>
         </itemlayout>

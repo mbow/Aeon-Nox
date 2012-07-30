@@ -116,7 +116,7 @@
                             <posy>8</posy>
                             <width>548</width>
                             <height>105</height>
-                            <colordiffuse>55FFFFFF</colordiffuse>
+                            <colordiffuse>white5</colordiffuse>
                             <aspectratio scalediffuse="false">scale</aspectratio>
                             <texture diffuse="thumbs/banner_mask.png">common/black.png</texture>
                         </control>

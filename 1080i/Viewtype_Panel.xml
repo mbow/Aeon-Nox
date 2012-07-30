@@ -108,7 +108,7 @@
                         <width>389</width>
                         <height>74</height>
                         <font>Font_Condensed22</font>
-                        <textcolor>FFf5f5f5</textcolor>
+                        <textcolor>white2</textcolor>
                         <selectedcolor>selected</selectedcolor>
                         <aligny>center</aligny>
                         <label>$INFO[ListItem.Label]</label>
