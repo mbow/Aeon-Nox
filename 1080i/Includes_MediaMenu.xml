@@ -392,7 +392,7 @@
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
                         <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
-                        <disabledcolor>3cFFFFFF</disabledcolor>
+                        <disabledcolor>grey3</disabledcolor>
                         <textoffsetx>110</textoffsetx>
                         <textoffsety>28</textoffsety>
                         <align>left</align>
@@ -415,7 +415,7 @@
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
                         <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
-                        <disabledcolor>3cFFFFFF</disabledcolor>
+                        <disabledcolor>grey3</disabledcolor>
                         <textoffsetx>105</textoffsetx>
                         <textoffsety>28</textoffsety>
                         <align>left</align>
@@ -440,7 +440,7 @@
                         <texturefocus>views/tripanel/listselect_fo.png</texturefocus>
                         <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
-                        <disabledcolor>3cFFFFFF</disabledcolor>
+                        <disabledcolor>grey3</disabledcolor>
                         <textoffsetx>105</textoffsetx>
                         <textoffsety>28</textoffsety>
                         <align>left</align>
@@ -485,7 +485,7 @@
                         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
                         <textcolor>grey2</textcolor>
                         <focusedcolor>white6</focusedcolor>
-                        <disabledcolor>3cFFFFFF</disabledcolor>
+                        <disabledcolor>grey3</disabledcolor>
                         <textoffsetx>15</textoffsetx>
                         <textoffsety>2</textoffsety>
                         <align>left</align>

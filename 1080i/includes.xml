@@ -259,7 +259,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>15</textoffsetx>
         <textoffsety>2</textoffsety>
         <align>left</align>
@@ -282,7 +282,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>105</textoffsetx>
         <textoffsety>28</textoffsety>
         <align>left</align>
@@ -305,7 +305,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>15</textoffsetx>
         <textoffsety>2</textoffsety>
         <align>left</align>
@@ -326,7 +326,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>15</textoffsetx>
         <textoffsety>2</textoffsety>
         <align>left</align>
@@ -350,7 +350,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>15</textoffsetx>
         <textoffsety>0</textoffsety>
         <align>left</align>
@@ -511,6 +511,7 @@
                 <width>1819</width>
                 <height>1038</height>
                 <texture>wall/wall_bg_reflection.png</texture>
+                <animation effect="fade" start="100" end="50" time="50" condition="Skin.HasTheme(Lite_Floor)">Conditional</animation>
                 <animation effect="zoom" end="91" center="960,360" time="400" tween="cubic" easing="inout" condition="true">Conditional</animation>
             </control>
             <include>Neon_Floor</include>
@@ -1089,7 +1090,7 @@
         <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
         <textcolor>grey2</textcolor>
         <focusedcolor>white6</focusedcolor>
-        <disabledcolor>3cFFFFFF</disabledcolor>
+        <disabledcolor>grey3</disabledcolor>
         <textoffsetx>15</textoffsetx>
         <textoffsety>2</textoffsety>
         <align>left</align>

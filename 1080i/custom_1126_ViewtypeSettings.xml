@@ -160,7 +160,7 @@
                 <selected>Skin.HasSetting(Nox.showcaseinfoonep) + Skin.HasSetting(Nox.infopaneautoep)</selected>
                 <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
-                <disabledcolor>3cFFFFFF</disabledcolor>
+                <disabledcolor>grey3</disabledcolor>
                 <textoffsetx>15</textoffsetx>
                 <textoffsety>2</textoffsety>
                 <align>left</align>
@@ -198,7 +198,7 @@
                 <selected>Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)</selected>
                 <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
-                <disabledcolor>3cFFFFFF</disabledcolor>
+                <disabledcolor>grey3</disabledcolor>
                 <textoffsetx>15</textoffsetx>
                 <textoffsety>2</textoffsety>
                 <align>left</align>
@@ -236,7 +236,7 @@
                 <selected>Skin.HasSetting(Nox.showcaseinfoon) + Skin.HasSetting(Nox.infopaneauto)</selected>
                 <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
-                <disabledcolor>3cFFFFFF</disabledcolor>
+                <disabledcolor>grey3</disabledcolor>
                 <textoffsetx>15</textoffsetx>
                 <textoffsety>2</textoffsety>
                 <align>left</align>
@@ -309,7 +309,7 @@
                 <selected>Skin.HasSetting(Nox.infopanellauncher) + Skin.HasSetting(Nox.infopaneautolauncher)</selected>
                 <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
-                <disabledcolor>3cFFFFFF</disabledcolor>
+                <disabledcolor>grey3</disabledcolor>
                 <textoffsetx>15</textoffsetx>
                 <textoffsety>2</textoffsety>
                 <align>left</align>
@@ -355,7 +355,7 @@
                 <selected>Skin.HasSetting(Nox.infopanelmusic) + Skin.HasSetting(Nox.infopaneautomusic)</selected>
                 <textcolor>grey2</textcolor>
                 <focusedcolor>white6</focusedcolor>
-                <disabledcolor>3cFFFFFF</disabledcolor>
+                <disabledcolor>grey3</disabledcolor>
                 <textoffsetx>15</textoffsetx>
                 <textoffsety>2</textoffsety>
                 <align>left</align>

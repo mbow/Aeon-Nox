@@ -116,6 +116,7 @@
                     <width>1695</width>
                     <height>1012</height>
                     <texture>wall/wall_bg_reflection.png</texture>
+                    <animation effect="fade" start="100" end="50" time="50" condition="Skin.HasTheme(Lite_Floor)">Conditional</animation>
                 </control>
                 <include condition="Skin.HasSetting(Nox.effect_bg)">BG_Effect_Weather_Panel</include>
             </control>
@@ -2960,7 +2961,7 @@
                             <description>change location button</description>
                             <textcolor>$VAR[SelectedColorVar]</textcolor>
                             <focusedcolor>white6</focusedcolor>
-                            <disabledcolor>3cFFFFFF</disabledcolor>
+                            <disabledcolor>grey3</disabledcolor>
                             <textureup>settings/spin-up.png</textureup>
                             <texturedown>settings/spin-down.png</texturedown>
                             <textureupfocus>settings/spin-up-focus.png</textureupfocus>

@@ -230,7 +230,7 @@
             <alttexturefocus>views/tripanel/listselect_fo.png</alttexturefocus>
             <textcolor>grey2</textcolor>
             <focusedcolor>white6</focusedcolor>
-            <disabledcolor>3cFFFFFF</disabledcolor>
+            <disabledcolor>grey3</disabledcolor>
             <textoffsetx>10</textoffsetx>
             <textoffsety>2</textoffsety>
             <align>left</align>
