@@ -199,7 +199,7 @@
                 <align>center</align>
                 <font>Font_Condensed18</font>
                 <textoffsetx>15</textoffsetx>
-                <textcolor>$VAR[TitleColorVar]</textcolor>
+                <textcolor>$VAR[d]</textcolor>
                 <shadowcolor>-</shadowcolor>
                 <label>$INFO[ListItem.Label]</label>
             </control>
@@ -307,7 +307,7 @@
                 <height>268</height>
                 <include>Animation_VisibleChange200</include>
                 <visible>Skin.HasSetting(Nox.ExtendedGlowMode)</visible>
-                <colordiffuse>white5</colordiffuse>
+                <animation effect="fade" start="100" end="50" time="50" condition="true">Conditional</animation>
                 <texture>common/black.png</texture>
             </control>
         </itemlayout>

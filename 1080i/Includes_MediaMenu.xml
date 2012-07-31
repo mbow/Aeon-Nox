@@ -797,7 +797,7 @@
                 <include>listcolornofocus</include>
                 <aligny>center</aligny>
                 <align>left</align>
-                <label>[UPPERCASE][COLOR 91FFFFFF]$INFO[MusicPlayer.Artist][/COLOR][/UPPERCASE]</label>
+                <label>[UPPERCASE][COLOR white3]$INFO[MusicPlayer.Artist][/COLOR][/UPPERCASE]</label>
                 <visible>!ControlGroup(3000).HasFocus</visible>
                 <include>Animation_VisibleChange200</include>
             </control>

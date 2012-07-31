@@ -197,7 +197,7 @@
                         <font>Font_Condensed60</font>
                         <visible>Substring(Control.GetLabel(8308),empty.png) | IsEmpty(Skin.String(Nox.ArtistsLogosPath))</visible>
                         <label>$INFO[ListItem.Artist]</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                     </control>
                 </control>
@@ -239,7 +239,7 @@
                         <scroll>true</scroll>
                         <font>Font_Condensed60</font>
                         <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                     </control>
                 </control>

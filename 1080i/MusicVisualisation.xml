@@ -225,7 +225,8 @@
                 <posy>-400</posy>
                 <width>1923</width>
                 <height>780</height>
-                <colordiffuse>grey2</colordiffuse>
+                <animation effect="fade" start="100" end="60" time="50" condition="true">Conditional</animation>
+                <colordiffuse>black</colordiffuse>
                 <texture>home/nowplaying_shadow.png</texture>
             </control>
             <control type="multiimage">
@@ -496,7 +497,7 @@
                         <font>Font_MainClassic</font>
                         <visible>Substring(Control.GetLabel(8308),empty.png) | IsEmpty(Skin.String(Nox.ArtistsLogosPath))</visible>
                         <label>[UPPERCASE]$INFO[MusicPlayer.Artist][/UPPERCASE]</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                     </control>
                 </control>
@@ -522,7 +523,7 @@
                         <posy>66</posy>
                         <width>150</width>
                         <height>99</height>
-                        <colordiffuse>91FFFFFF</colordiffuse>
+                        <colordiffuse>white3</colordiffuse>
                         <texture fallback="empty.png">$INFO[MusicPlayer.Codec,flags/audio/,.png]</texture>
                     </control>
                        <control type="label">
@@ -537,7 +538,7 @@
                             <shadowcolor>black</shadowcolor>
                             <wrapmultiline>true</wrapmultiline>
                             <visible>StringCompare(Control.GetLabel(8309),empty.png)</visible>
-                            <label>[COLOR=91FFFFFF]$INFO[MusicPlayer.Codec][/COLOR]</label>
+                            <label>[COLOR=white3]$INFO[MusicPlayer.Codec][/COLOR]</label>
                         </control>
                     <control type="image">
                         <posx>756</posx>
@@ -552,7 +553,7 @@
                         <posy>66</posy>
                         <width>150</width>
                         <height>99</height>
-                        <colordiffuse>91FFFFFF</colordiffuse>
+                        <colordiffuse>white3</colordiffuse>
                         <texture fallback="empty.png">$INFO[MusicPlayer.Property(Album_Label),flags/music/recordlabel/,.png]</texture>
                     </control>
                     <control type="group">
@@ -577,7 +578,7 @@
                             <font>Font_Condensed22</font>
                             <shadowcolor>black</shadowcolor>
                             <wrapmultiline>true</wrapmultiline>
-                            <label>[COLOR=91FFFFFF]$INFO[MusicPlayer.Genre][/COLOR]</label>
+                            <label>[COLOR=white3]$INFO[MusicPlayer.Genre][/COLOR]</label>
                         </control>
                     </control>
                 </control>
@@ -595,7 +596,7 @@
                         <height>75</height>
                         <font>Font_MainClassic</font>
                         <label>$INFO[MusicPlayer.Time,, / ]$INFO[MusicPlayer.Duration]</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <align>right</align>
                         <visible>Player.HasDuration</visible>
@@ -606,7 +607,7 @@
                         <height>75</height>
                         <font>Font_MainClassic</font>
                         <label>$INFO[MusicPlayer.Time,, / ]∞</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                         <align>right</align>
                         <visible>!Player.HasDuration</visible>

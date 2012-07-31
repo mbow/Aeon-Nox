@@ -1680,7 +1680,7 @@
                         <align>left</align>
                         <aligny>center</aligny>
                         <font>Font_Reg18</font>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>-</shadowcolor>
                         <scroll>true</scroll>
                     </control>
@@ -1703,7 +1703,7 @@
                         <posy>165</posy>
                         <height>90</height>
                         <width>750</width>
-                        <label>$INFO[MusicPlayer.offset(1).Title,[COLOR 91FFFFFF]$LOCALIZE[209]: [/COLOR]]</label>
+                        <label>$INFO[MusicPlayer.offset(1).Title,[COLOR white3]$LOCALIZE[209]: [/COLOR]]</label>
                         <align>left</align>
                         <font>Font_Reg18</font>
                         <textcolor>AA777777</textcolor>

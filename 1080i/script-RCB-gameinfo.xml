@@ -222,7 +222,7 @@
                         <scroll>true</scroll>
                         <font>Font_Condensed60</font>
                         <label>$INFO[ListItem.Property(year)]$INFO[ListItem.Property(genre), • ]</label>
-                        <textcolor>91FFFFFF</textcolor>
+                        <textcolor>white3</textcolor>
                         <shadowcolor>black</shadowcolor>
                     </control>
                 </control>

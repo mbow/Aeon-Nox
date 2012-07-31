@@ -150,7 +150,7 @@
                             <scroll>true</scroll>
                             <font>Font_Condensed60</font>
                             <label>$INFO[ListItem.Artist]$INFO[ListItem.Album, • ]</label>
-                            <textcolor>91FFFFFF</textcolor>
+                            <textcolor>white3</textcolor>
                             <shadowcolor>black</shadowcolor>
                         </control>
                     </control>

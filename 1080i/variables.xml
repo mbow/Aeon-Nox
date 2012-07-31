@@ -92,13 +92,13 @@
         <value>FFFFFFFF</value>
     </variable>
     <variable name="FloorColorVar">
-         <value condition="Skin.HasTheme(Lite_Floor)">FFFFFFFF</value>
-        <value condition="Skin.HasSetting(Nox.randomcolor)">$VAR[DayTimeColorVar]</value>
+<!--          <value condition="Skin.HasTheme(Lite_Floor)">FFFFFFFF</value>
+ -->        <value condition="Skin.HasSetting(Nox.randomcolor)">$VAR[DayTimeColorVar]</value>
         <value>$VAR[AreaColorVar]</value>
     </variable>
     <variable name="ExtendedFloorColorVar">
-         <value condition="Skin.HasTheme(Lite_Floor)">FFFFFFFF</value>
-        <value condition="!Skin.HasSetting(Nox.randomcolor) + ![Skin.HasSetting(Nox.DisableGlowbar) + !Skin.HasSetting(Nox.ExtendedGlowMode)]">$VAR[AreaColorVar]</value>
+<!--          <value condition="Skin.HasTheme(Lite_Floor)">FFFFFFFF</value>
+ -->        <value condition="!Skin.HasSetting(Nox.randomcolor) + ![Skin.HasSetting(Nox.DisableGlowbar) + !Skin.HasSetting(Nox.ExtendedGlowMode)]">$VAR[AreaColorVar]</value>
         <value condition="Skin.HasSetting(Nox.randomcolor) + ![Skin.HasSetting(Nox.DisableGlowbar) + !Skin.HasSetting(Nox.ExtendedGlowMode)]">$VAR[DayTimeColorVar]</value>
         <value>black</value>
     </variable>

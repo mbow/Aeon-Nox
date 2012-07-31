@@ -75,6 +75,7 @@
                         <posy>0</posy>
                         <width>100</width>
                         <height>100</height>
+                        <colordiffuse>white</colordiffuse>
                         <texturenofocus>PVR/buttons/UPNOFO.png</texturenofocus>
                         <visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
                     </control>
@@ -435,6 +436,7 @@
                         <width>100</width>
                         <height>100</height>
                         <label>298</label>
+                        <colordiffuse>white</colordiffuse>
                         <font>-</font>
                         <texturefocus>special://skin/extras/BigIcons/Book.png</texturefocus>
                         <texturenofocus>special://skin/extras/BigIcons/Book.png</texturenofocus>
@@ -447,6 +449,7 @@
                         <height>100</height>
                         <label>13396</label>
                         <font>-</font>
+                        <colordiffuse>white</colordiffuse>
                         <texturefocus>special://skin/extras/BigIcons/Speaker.png</texturefocus>
                         <texturenofocus>special://skin/extras/BigIcons/Speaker.png</texturenofocus>
                         <onclick>ActivateWindow(124)</onclick>
@@ -457,6 +460,7 @@
                         <width>100</width>
                         <height>100</height>
                         <label>13395</label>
+                        <colordiffuse>white</colordiffuse>
                         <font>-</font>
                         <texturefocus>special://skin/extras/BigIcons/Camcorder.png</texturefocus>
                         <texturenofocus>special://skin/extras/BigIcons/Camcorder.png</texturenofocus>
