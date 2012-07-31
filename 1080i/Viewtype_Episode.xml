@@ -117,9 +117,10 @@
                             <posy>8</posy>
                             <width>548</width>
                             <height>105</height>
-                            <colordiffuse>white5</colordiffuse>
+                            <animation effect="fade" start="100" end="50" time="50" condition="true">Conditional</animation>
                             <aspectratio scalediffuse="false">scale</aspectratio>
-                            <texture diffuse="thumbs/banner_mask.png">common/black.png</texture>
+                            <colordiffuse>black</colordiffuse>
+                            <texture diffuse="thumbs/banner_mask.png">common/white.png</texture>
                         </control>
                         <control type="image">
                             <posx>1255</posx>
