@@ -100,14 +100,15 @@
         </control>
         <control type="image">
             <include>FullscreenDimensions</include>
-            <texture>common/black.png</texture>
+            <texture>common/white.png</texture>
+            <colordiffuse>black</colordiffuse>
         </control>
         <control type="image">
             <posx>923</posx>
             <posy>503</posy>
             <width>74</width>
             <height>74</height>
-            <colordiffuse>$VAR[ColorDiffuseVar]</colordiffuse>
+            <colordiffuse>$VAR[SpotColorVar]</colordiffuse>
             <texture>dialogs/busy.png</texture>
             <animation effect="rotate" start="360" end="0" center="auto" time="2500" loop="true" condition="true">conditional</animation>
             <animation effect="fade" start="70" time="1500" condition="true" pulse="true">Conditional</animation>

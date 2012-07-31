@@ -142,13 +142,13 @@
         <value>$VAR[AreaColorVar]</value>
     </variable>
     <variable name="TitleColorVar">
-        <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[ColorDiffuseVar]</value>
-        <value condition="[Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortexthome)">$VAR[ColorDiffuseVar]</value>
+        <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[SpotColorVar]</value>
+        <value condition="[Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortexthome)">$VAR[SpotColorVar]</value>
         <value>white6</value>
     </variable>
     <variable name="SubTitleColorVar">
-        <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[ColorDiffuseVar]</value>
-        <value condition="[Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortexthome)">$VAR[ColorDiffuseVar]</value>
+        <value condition="![Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortext)">$VAR[SpotColorVar]</value>
+        <value condition="[Window.IsActive(home) | Window.IsActive(1124)] + Skin.HasSetting(Nox.colortexthome)">$VAR[SpotColorVar]</value>
         <value>grey</value>
     </variable>
     <variable name="ExtendedColorVar">

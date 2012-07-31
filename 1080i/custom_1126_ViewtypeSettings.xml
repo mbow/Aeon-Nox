@@ -29,8 +29,6 @@
             </animation>
             <control type="button" id="1601">
                 <description>Backdrop options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31383][/UPPERCASE][/B]</label>
                 <enable>no</enable>
@@ -39,7 +37,7 @@
                 <!-- Toggle Fanart -->
                 <description>Toggle Fanart</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[20445]: [COLOR $VAR[SelectedColorVar]]$VAR[MusicFanArtLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[20445]: [COLOR $VAR[SpotColorVar]]$VAR[MusicFanArtLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.NoMusicLibraryFanart) + !Skin.HasSetting(Nox.musicextrafanart)">Skin.SetBool(Nox.musicextrafanart)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.musicextrafanart)">Skin.SetBool(Nox.NoMusicLibraryFanart)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.musicextrafanart)">Skin.Reset(Nox.musicextrafanart)</onclick>
@@ -50,7 +48,7 @@
                 <!-- Toggle Fanart -->
                 <description>Toggle Fanart</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[20445]: [COLOR $VAR[SelectedColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[20445]: [COLOR $VAR[SpotColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartseasons) + !Skin.HasSetting(Nox.SeasonFanart)">Skin.SetBool(Nox.extrafanartseasons)</onclick>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartseasons) + !Skin.HasSetting(Nox.SeasonFanart)">Notification($LOCALIZE[42002],$LOCALIZE[42004])</onclick>
                 <onclick condition="Skin.HasSetting(Nox.extrafanartseasons)">Skin.SetBool(Nox.SeasonFanart)</onclick>
@@ -64,7 +62,7 @@
                 <!-- Toggle Fanart -->
                 <description>Toggle Fanart</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[20445]: [COLOR $VAR[SelectedColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[20445]: [COLOR $VAR[SpotColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartepisodes) + !Skin.HasSetting(Nox.SeasonFanart)">Skin.SetBool(Nox.extrafanartepisodes)</onclick>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartepisodes) + !Skin.HasSetting(Nox.SeasonFanart)">Notification($LOCALIZE[42002],$LOCALIZE[42004])</onclick>
                 <onclick condition="Skin.HasSetting(Nox.extrafanartepisodes)">Skin.SetBool(Nox.SeasonFanart)</onclick>
@@ -78,7 +76,7 @@
                 <!-- Toggle Fanart -->
                 <description>Toggle Fanart</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[20445]: [COLOR $VAR[SelectedColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[20445]: [COLOR $VAR[SpotColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanart) + !Skin.HasSetting(Nox.extrafanartmovies)">Skin.SetBool(Nox.extrafanartmovies)</onclick>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanart) + !Skin.HasSetting(Nox.extrafanartmovies)">Notification($LOCALIZE[42002],$LOCALIZE[42004]</onclick>
                 <onclick condition="Skin.HasSetting(Nox.extrafanartmovies)">Skin.SetBool(Nox.NoVideoLibraryFanart)</onclick>
@@ -99,7 +97,7 @@
             <control type="button" id="1690">
                 <description>Fanart</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[20445]: [COLOR $VAR[SelectedColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[20445]: [COLOR $VAR[SpotColorVar]]$VAR[VideoFanArtLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartseries)">Skin.SetBool(Nox.extrafanartseries)</onclick>
                 <onclick condition="!Skin.HasSetting(Nox.NoVideoLibraryFanartTVShows) + !Skin.HasSetting(Nox.extrafanartseries)">Notification($LOCALIZE[42002],$LOCALIZE[42004])</onclick>
                 <onclick condition="Skin.HasSetting(Nox.extrafanartseries)">Skin.SetBool(Nox.NoVideoLibraryFanartTVShows)</onclick>
@@ -110,9 +108,9 @@
             <control type="togglebutton" id="1666">
                 <description>Toggle Overlay</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31102] [COLOR $VAR[SelectedColorVar]]1[/COLOR]</label>
+                <label>$LOCALIZE[31102] [COLOR $VAR[SpotColorVar]]1[/COLOR]</label>
                 <aligny>center</aligny>
-                <altlabel>$LOCALIZE[31102] [COLOR $VAR[SelectedColorVar]]2[/COLOR]</altlabel>
+                <altlabel>$LOCALIZE[31102] [COLOR $VAR[SpotColorVar]]2[/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.altoverlayinfowall)</onclick>
                 <usealttexture>Skin.HasSetting(Nox.altoverlayinfowall)</usealttexture>
                 <visible>stringcompare(Skin.String(Nox.actualViewtype),episode)</visible>
@@ -138,8 +136,6 @@
             <control type="button" id="1609">
                 <!--Info panel options-->
                 <description>Infopanel options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31166][/UPPERCASE][/B]</label>
                 <visible>[stringcompare(Skin.String(Nox.actualViewtype),showcasemovies) | Stringcompare(Skin.String(Nox.actualViewtype),showcasedvd) | Stringcompare(Skin.String(Nox.actualViewtype),landscape) | Stringcompare(Skin.String(Nox.actualViewtype),banners)] + [Container.Content(tvshows) | Container.Content(seasons) | Container.Content(movies) | Container.Content(episodes)]</visible>
@@ -171,7 +167,7 @@
                 <radiowidth>30</radiowidth>
                 <radioheight>30</radioheight>
                 <radioposx>542</radioposx>
-                <label>$LOCALIZE[31166]: [COLOR $VAR[SelectedColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31166]: [COLOR $VAR[SpotColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoonep) + Skin.HasSetting(Nox.infopaneautoep)]">Dialog.Close(1126)</onright>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoonep) + Skin.HasSetting(Nox.infopaneautoep)]">SetFocus(50)</onright>
                 <onright condition="Skin.HasSetting(Nox.showcaseinfoonep) + Skin.HasSetting(Nox.infopaneautoep)">ActivateWindow(1114)</onright>
@@ -209,7 +205,7 @@
                 <radiowidth>30</radiowidth>
                 <radioheight>30</radioheight>
                 <radioposx>542</radioposx>
-                <label>$LOCALIZE[31166]: [COLOR $VAR[SelectedColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31166]: [COLOR $VAR[SpotColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)]">Dialog.Close(1126)</onright>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)]">SetFocus(50)</onright>
                 <onright condition="Skin.HasSetting(Nox.showcaseinfoontv) + Skin.HasSetting(Nox.infopaneautotv)">ActivateWindow(1114)</onright>
@@ -247,7 +243,7 @@
                 <radiowidth>30</radiowidth>
                 <radioheight>30</radioheight>
                 <radioposx>542</radioposx>
-                <label>$LOCALIZE[31166]: [COLOR $VAR[SelectedColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31166]: [COLOR $VAR[SpotColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoon) + Skin.HasSetting(Nox.infopaneauto)]">Dialog.Close(1126)</onright>
                 <onright condition="![Skin.HasSetting(Nox.showcaseinfoon) + Skin.HasSetting(Nox.infopaneauto)]">SetFocus(50)</onright>
                 <onright condition="Skin.HasSetting(Nox.showcaseinfoon) + Skin.HasSetting(Nox.infopaneauto)">ActivateWindow(1114)</onright>
@@ -270,8 +266,8 @@
             <control type="togglebutton" id="1667">
                 <description>Toggle Overlay</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31272]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[21371][/COLOR]</label>
-                <altlabel>$LOCALIZE[31272]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[20445][/COLOR]</altlabel>
+                <label>$LOCALIZE[31272]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[21371][/COLOR]</label>
+                <altlabel>$LOCALIZE[31272]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[20445][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.LandscapeThumb)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.LandscapeThumb)</usealttexture>
                 <visible>[stringcompare(Skin.String(Nox.actualViewtype),showcasemovies) | Stringcompare(Skin.String(Nox.actualViewtype),showcasedvd) | Stringcompare(Skin.String(Nox.actualViewtype),landscape)] + Container.Content(episodes)</visible>
@@ -279,16 +275,14 @@
             <control type="togglebutton" id="1697">
                 <description>Toggle Overlay</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[41159]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[20445][/COLOR]</label>
-                <altlabel>$LOCALIZE[41159]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[21371][/COLOR]</altlabel>
+                <label>$LOCALIZE[41159]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[20445][/COLOR]</label>
+                <altlabel>$LOCALIZE[41159]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[21371][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.TVLandscapeThumb)</onclick>
                 <usealttexture>Skin.HasSetting(Nox.TVLandscapeThumb)</usealttexture>
                 <visible>[stringcompare(Skin.String(Nox.actualViewtype),landscape) | Stringcompare(Skin.String(Nox.actualViewtype),showcasemovies) | Stringcompare(Skin.String(Nox.actualViewtype),showcasedvd) | Stringcompare(Skin.String(Nox.actualViewtype),banners)] + [[Container.Content(tvshows) + ![Skin.HasSetting(Nox.tvposterinfopane) | Skin.HasSetting(Nox.tvthumbsinfopane)]] | Container.Content(seasons)]</visible>
             </control>
             <control type="button" id="1673">
                 <description>Infopanel options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31166][/UPPERCASE][/B]</label>
                 <visible>Substring(Skin.String(Nox.actualViewtype),showcase) + [Window.IsActive(programs) + !Container.Content(addons)]</visible>
@@ -320,7 +314,7 @@
                 <radiowidth>30</radiowidth>
                 <radioheight>30</radioheight>
                 <radioposx>542</radioposx>
-                <label>$LOCALIZE[31166]: [COLOR $VAR[SelectedColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31166]: [COLOR $VAR[SpotColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
                 <onright condition="![Skin.HasSetting(Nox.infopanellauncher) + Skin.HasSetting(Nox.infopaneautolauncher)]">Dialog.Close(1126)</onright>
                 <onright condition="![Skin.HasSetting(Nox.infopanellauncher) + Skin.HasSetting(Nox.infopaneautolauncher)]">SetFocus(50)</onright>
                 <onright condition="Skin.HasSetting(Nox.infopanellauncher) + Skin.HasSetting(Nox.infopaneautolauncher)">ActivateWindow(1114)</onright>
@@ -333,8 +327,6 @@
             </control>
             <control type="button" id="1677">
                 <description>Infopanel options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31166][/UPPERCASE][/B]</label>
                 <visible>[stringcompare(Skin.String(Nox.actualViewtype),showcasesquare) | Stringcompare(Skin.String(Nox.actualViewtype),showcasecd)] + [Container.Content(albums) | Container.Content(artists)] + Window.IsActive(musiclibrary)</visible>
@@ -366,7 +358,7 @@
                 <radiowidth>30</radiowidth>
                 <radioheight>30</radioheight>
                 <radioposx>542</radioposx>
-                <label>$LOCALIZE[31166]: [COLOR $VAR[SelectedColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31166]: [COLOR $VAR[SpotColorVar]]$VAR[InfoPanelToggleLabelVar][/COLOR]</label>
                 <onright condition="![Skin.HasSetting(Nox.infopanelmusic) + Skin.HasSetting(Nox.infopaneautomusic)]">Dialog.Close(1126)</onright>
                 <onright condition="![Skin.HasSetting(Nox.infopanelmusic) + Skin.HasSetting(Nox.infopaneautomusic)]">SetFocus(50)</onright>
                 <onright condition="Skin.HasSetting(Nox.infopanelmusic) + Skin.HasSetting(Nox.infopaneautomusic)">ActivateWindow(1114)</onright>
@@ -379,8 +371,6 @@
             </control>
             <control type="button" id="1606">
                 <description>Viewtype options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31185][/UPPERCASE][/B]</label>
                 <enable>no</enable>
@@ -485,7 +475,7 @@
             <control type="button" id="1707">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[41159]: [COLOR $VAR[SelectedColorVar]]$VAR[BigFanIconLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[41159]: [COLOR $VAR[SpotColorVar]]$VAR[BigFanIconLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.bigfanclearart) + !Skin.HasSetting(Nox.bigfanlandscape) + !Skin.HasSetting(Nox.bigfanlogo)">Skin.SetBool(Nox.bigfanclearart)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.bigfanclearart)">Skin.SetBool(Nox.bigfanlogo)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.bigfanclearart)">Skin.Reset(Nox.bigfanclearart)</onclick>
@@ -498,8 +488,8 @@
             <control type="togglebutton" id="1639">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[41159]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[21371][/COLOR]</label>
-                <altlabel>$LOCALIZE[41159]: [COLOR $VAR[SelectedColorVar]]Landscape.jpg[/COLOR]</altlabel>
+                <label>$LOCALIZE[41159]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[21371][/COLOR]</label>
+                <altlabel>$LOCALIZE[41159]: [COLOR $VAR[SpotColorVar]]Landscape.jpg[/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.SeasonLandscape)</onclick>
                 <usealttexture>Skin.HasSetting(Nox.SeasonLandscape)</usealttexture>
                 <visible>Container.Content(seasons) + stringcompare(Skin.String(Nox.actualViewtype),landscape)</visible>
@@ -507,7 +497,7 @@
             <control type="button" id="1633">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[41159]: [COLOR=$VAR[SelectedColorVar]]$VAR[LandscapeTypeLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[41159]: [COLOR=$VAR[SpotColorVar]]$VAR[LandscapeTypeLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.landscapelogo) + !Skin.HasSetting(Nox.landscapeonelogo) + !Skin.HasSetting(Nox.landscapeclearart)">Skin.SetBool(Nox.landscapeonelogo)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.landscapeonelogo)">Skin.SetBool(Nox.landscapelogo)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.landscapeonelogo)">Skin.Reset(Nox.landscapeonelogo)</onclick>
@@ -536,7 +526,7 @@
             <control type="button" id="1637">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31242]: [COLOR $VAR[SelectedColorVar]]$VAR[FlagLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31242]: [COLOR $VAR[SpotColorVar]]$VAR[FlagLabelVar][/COLOR]</label>
                 <onclick condition="Skin.HasSetting(Nox.watchedoverlay) + !Skin.HasSetting(Nox.newstatus)">Skin.SetBool(Nox.newstatus)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.watchedoverlay) + !Skin.HasSetting(Nox.newstatus)">Skin.Reset(Nox.watchedoverlay)</onclick>
                 <onclick condition="!Skin.HasSetting(Nox.watchedoverlay) + Skin.HasSetting(Nox.newstatus)">Skin.SetBool(Nox.watchedoverlay)</onclick>
@@ -569,7 +559,7 @@
             <control type="button" id="1642">
                 <description>Cases</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31482]: [COLOR $VAR[SelectedColorVar]]$VAR[AddonWallCasesLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[31482]: [COLOR $VAR[SpotColorVar]]$VAR[AddonWallCasesLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.useclearcasesinfowall) + !Skin.HasSetting(Nox.usecasesinfowall)">Skin.SetBool(Nox.usecasesinfowall)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.usecasesinfowall)">Skin.SetBool(Nox.useclearcasesinfowall)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.usecasesinfowall)">Skin.Reset(Nox.usecasesinfowall)</onclick>
@@ -579,7 +569,7 @@
             </control>
             <control type="button" id="1694">
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31191]: [COLOR $VAR[SelectedColorVar]]$VAR[TVShowIconVar][/COLOR]</label>
+                <label>$LOCALIZE[31191]: [COLOR $VAR[SpotColorVar]]$VAR[TVShowIconVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.TVInfoWallLogo) + !Skin.HasSetting(Nox.TVInfoWallBanner) + !Skin.HasSetting(Nox.TVInfoWallLandscape)">Skin.SetBool(Nox.TVInfoWallBanner)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.TVInfoWallBanner)">Skin.SetBool(Nox.TVInfoWallLandscape)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.TVInfoWallBanner)">Skin.Reset(Nox.TVInfoWallBanner)</onclick>
@@ -591,8 +581,8 @@
             <control type="togglebutton" id="1699">
                 <description>Prefer Subtitle over country</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[202]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[351][/COLOR]</label>
-                <altlabel>$LOCALIZE[202]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31429][/COLOR]</altlabel>
+                <label>$LOCALIZE[202]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[351][/COLOR]</label>
+                <altlabel>$LOCALIZE[202]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[31429][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.InfoWallTagLine)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.InfoWallTagLine)</usealttexture>
                 <visible>stringcompare(Skin.String(Nox.actualViewtype),addonwall) + Container.Content(movies)</visible>
@@ -619,8 +609,8 @@
             <control type="togglebutton" id="1648">
                 <description>Toggle Wrap/Fixed list</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31694]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[106][/COLOR]</label>
-                <altlabel>$LOCALIZE[31694]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[107][/COLOR]</altlabel>
+                <label>$LOCALIZE[31694]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[106][/COLOR]</label>
+                <altlabel>$LOCALIZE[31694]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[107][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.posterwrap)</onclick>
                 <include>ReloadWindowOnClick</include>
                 <usealttexture>!Skin.HasSetting(Nox.posterwrap)</usealttexture>
@@ -630,8 +620,8 @@
             <control type="togglebutton" id="1649">
                 <description>Toggle Info</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31388] [COLOR $VAR[SelectedColorVar]]$LOCALIZE[515][/COLOR]</label>
-                <altlabel>$LOCALIZE[31388] [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31172][/COLOR]</altlabel>
+                <label>$LOCALIZE[31388] [COLOR $VAR[SpotColorVar]]$LOCALIZE[515][/COLOR]</label>
+                <altlabel>$LOCALIZE[31388] [COLOR $VAR[SpotColorVar]]$LOCALIZE[31172][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.wallgenre)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.wallgenre)</usealttexture>
                 <visible>[[stringcompare(Skin.String(Nox.actualViewtype),shift) | Stringcompare(Skin.String(Nox.actualViewtype),wall) | Stringcompare(Skin.String(Nox.actualViewtype),showcasemovies) | Stringcompare(Skin.String(Nox.actualViewtype),showcasedvd) | Stringcompare(Skin.String(Nox.actualViewtype),banners)] + Container.Content(movies)]</visible>
@@ -656,7 +646,7 @@
             <control type="button" id="16440">
                 <description>Toggle Info</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[556]: [COLOR $VAR[SelectedColorVar]]$VAR[IconModeLabelVar][/COLOR]</label>
+                <label>$LOCALIZE[556]: [COLOR $VAR[SpotColorVar]]$VAR[IconModeLabelVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.tvshowlogosfloor) + !Skin.HasSetting(Nox.tvshowbannersfloor)">Skin.SetBool(Nox.tvshowbannersfloor)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.tvshowbannersfloor)">Skin.SetBool(Nox.tvshowlogosfloor)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.tvshowbannersfloor)">Skin.Reset(Nox.tvshowbannersfloor)</onclick>
@@ -667,8 +657,8 @@
             <control type="togglebutton" id="1650">
                 <description>Toggle Info</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31388] [COLOR $VAR[SelectedColorVar]]$LOCALIZE[515][/COLOR]</label>
-                <altlabel>$LOCALIZE[31388] [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31172][/COLOR]</altlabel>
+                <label>$LOCALIZE[31388] [COLOR $VAR[SpotColorVar]]$LOCALIZE[515][/COLOR]</label>
+                <altlabel>$LOCALIZE[31388] [COLOR $VAR[SpotColorVar]]$LOCALIZE[31172][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.wallgenretv)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.wallgenretv)</usealttexture>
                 <visible>[stringcompare(Skin.String(Nox.actualViewtype),shift) | Stringcompare(Skin.String(Nox.actualViewtype),wall) | Stringcompare(Skin.String(Nox.actualViewtype),showcasemovies) | Stringcompare(Skin.String(Nox.actualViewtype),showcasedvd) | Stringcompare(Skin.String(Nox.actualViewtype),banners)] + [Container.Content(tvshows) | Container.Content(seasons)]</visible>
@@ -677,8 +667,8 @@
             <control type="togglebutton" id="1706">
                 <description>Toggle Vertical/Horizontal wall</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31231]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[31228][/COLOR]</label>
-                <altlabel>$LOCALIZE[31231]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[31229][/COLOR]</altlabel>
+                <label>$LOCALIZE[31231]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[31228][/COLOR]</label>
+                <altlabel>$LOCALIZE[31231]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[31229][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.BannerPlexVertical)</onclick>
                 <include>ReloadWindowOnClick</include>
                 <usealttexture>!Skin.HasSetting(Nox.BannerPlexVertical)</usealttexture>
@@ -700,7 +690,7 @@
             <control type="button" id="1705">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31060]: [COLOR $VAR[SelectedColorVar]]$VAR[EpisodeIconVar][/COLOR]</label>
+                <label>$LOCALIZE[31060]: [COLOR $VAR[SpotColorVar]]$VAR[EpisodeIconVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.EpisodeViewIcon) + !Skin.HasSetting(Nox.disableepisodeposter)">Skin.SetBool(Nox.disableepisodeposter)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.disableepisodeposter)">Skin.SetBool(Nox.EpisodeViewIcon)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.disableepisodeposter)">Skin.Reset(Nox.disableepisodeposter)</onclick>
@@ -718,7 +708,7 @@
             <control type="button" id="1661">
                 <description>Banner</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[535]: [COLOR $VAR[SelectedColorVar]]$VAR[EpisodeTVShowVar][/COLOR]</label>
+                <label>$LOCALIZE[535]: [COLOR $VAR[SpotColorVar]]$VAR[EpisodeTVShowVar][/COLOR]</label>
                 <onclick condition="!Skin.HasSetting(Nox.episodebanner) + !Skin.HasSetting(Nox.episodelogo)">Skin.SetBool(Nox.episodelogo)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.episodelogo)">Skin.SetBool(Nox.episodebanner)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.episodelogo)">Skin.Reset(Nox.episodelogo)</onclick>
@@ -728,8 +718,8 @@
             <control type="togglebutton" id="1669">
                 <description>Toggle Logo</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31272]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31293][/COLOR]</label>
-                <altlabel>$LOCALIZE[31272]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31271][/COLOR]</altlabel>
+                <label>$LOCALIZE[31272]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[31293][/COLOR]</label>
+                <altlabel>$LOCALIZE[31272]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[31271][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.InfoWallSquare)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.InfoWallSquare)</usealttexture>
                 <visible>stringcompare(Skin.String(Nox.actualViewtype),addonwall) + [Window.IsActive(programs) + !Container.Content(addons)]</visible>
@@ -831,7 +821,7 @@
             <control type="button" id="16571">
                 <description>Rounded covers</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[41156]: [COLOR $VAR[SelectedColorVar]]$VAR[FSPanelTypeVar][/COLOR]</label>
+                <label>$LOCALIZE[41156]: [COLOR $VAR[SpotColorVar]]$VAR[FSPanelTypeVar][/COLOR]</label>
                 <selected>Skin.HasSetting(Nox.fspanel2columns)</selected>
                 <onclick condition="!Skin.HasSetting(Nox.fspanel2columns) + !Skin.HasSetting(Nox.fspanelfanart)">Skin.SetBool(Nox.fspanelfanart)</onclick>
                 <onclick condition="Skin.HasSetting(Nox.fspanelfanart)">Skin.SetBool(Nox.fspanel2columns)</onclick>
@@ -868,8 +858,8 @@
             <control type="togglebutton" id="1652">
                 <description>Toggle Vertical/Horizontal wall</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
-                <label>$LOCALIZE[31231]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[31228][/COLOR]</label>
-                <altlabel>$LOCALIZE[31231]: [COLOR=$VAR[SelectedColorVar]]$LOCALIZE[31229][/COLOR]</altlabel>
+                <label>$LOCALIZE[31231]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[31228][/COLOR]</label>
+                <altlabel>$LOCALIZE[31231]: [COLOR=$VAR[SpotColorVar]]$LOCALIZE[31229][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.WallVertical)</onclick>
                 <include>ReloadWindowOnClick</include>
                 <usealttexture>!Skin.HasSetting(Nox.WallVertical)</usealttexture>
@@ -911,8 +901,8 @@
                 <description>Toggle wrap</description>
                 <include>Objects_MediaMenuButtonAlt2</include>
                 <aligny>center</aligny>
-                <label>$LOCALIZE[31694]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[107][/COLOR]</label>
-                <altlabel>$LOCALIZE[31694]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[106][/COLOR]</altlabel>
+                <label>$LOCALIZE[31694]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[107][/COLOR]</label>
+                <altlabel>$LOCALIZE[31694]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[106][/COLOR]</altlabel>
                 <onclick>Skin.ToggleSetting(Nox.showcasewrap)</onclick>
                 <include condition="!Window.IsActive(script-Rom_Collection_Browser-main.xml)">ReloadWindowOnClick</include>
                 <usealttexture>Skin.HasSetting(Nox.showcasewrap)</usealttexture>
@@ -952,8 +942,6 @@
             </control>
             <control type="button" id="1603">
                 <description>Backdrop options label</description>
-                <textcolor>$VAR[SubTitleColorVar]</textcolor>
-                <disabledcolor>$VAR[ColorDiffuseVar]</disabledcolor>
                 <include>Objects_MediaMenuLabelAlt2</include>
                 <label>[UPPERCASE][B]$LOCALIZE[31176][/UPPERCASE][/B]</label>
                 <enable>no</enable>
@@ -975,8 +963,8 @@
                 <visible>[Container.Content(tvshows) | Container.Content(seasons)] + [[stringcompare(Skin.String(Nox.actualViewtype),tripanel) + Skin.HasSetting(Nox.tripanelbanner)] | stringcompare(Skin.String(Nox.actualViewtype),banners) | [stringcompare(Skin.String(Nox.actualViewtype),wall) + Skin.HasSetting(Nox.TVWallBanner)] | [stringcompare(Skin.String(Nox.actualViewtype),episode) + Skin.HasSetting(Nox.episodebanner)] | [stringcompare(Skin.String(Nox.actualViewtype),lowlist) + Skin.HasSetting(Nox.lowlistbanner)]]</visible>
             </control>
             <control type="togglebutton" id="266">
-                <label>$LOCALIZE[207]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31426][/COLOR]</label>
-                <altlabel>$LOCALIZE[207]: [COLOR $VAR[SelectedColorVar]]$LOCALIZE[31427][/COLOR]</altlabel>
+                <label>$LOCALIZE[207]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[31426][/COLOR]</label>
+                <altlabel>$LOCALIZE[207]: [COLOR $VAR[SpotColorVar]]$LOCALIZE[31427][/COLOR]</altlabel>
                 <include>Objects_MediaMenuButtonAlt2</include>
                 <onclick>Skin.ToggleSetting(Nox.preferplot)</onclick>
                 <usealttexture>!Skin.HasSetting(Nox.preferplot)</usealttexture>
