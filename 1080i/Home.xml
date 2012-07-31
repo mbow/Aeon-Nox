@@ -112,6 +112,15 @@
                 <colordiffuse>$INFO[Skin.String(Nox.BackgroundDarkness)]</colordiffuse>
                 <texture>common/black.png</texture>
                 <include>Animation_VisibleChange400</include>
+                <visible>!Skin.HasTheme(Lite_Floor)</visible>
+                <visible>![Skin.HasSetting(Nox.DisableWidgets) + !Player.HasMedia]</visible>
+            </control>
+            <control type="image">
+                <include>FullscreenDimensions</include>
+                <colordiffuse>$INFO[Skin.String(Nox.BackgroundDarkness)]</colordiffuse>
+                <texture>common/white.png</texture>
+                <include>Animation_VisibleChange400</include>
+                <visible>Skin.HasTheme(Lite_Floor)</visible>
                 <visible>![Skin.HasSetting(Nox.DisableWidgets) + !Player.HasMedia]</visible>
             </control>
             <control type="image">
@@ -370,6 +379,7 @@
                 <posy>20</posy>
                 <width>35</width>
                 <height>35</height>
+                <colordiffuse>white</colordiffuse>
                 <texture>common/arrowback.png</texture>
                 <colordiffuse>$VAR[DialogColorVar]</colordiffuse>
             </control>
@@ -390,10 +400,11 @@
         <control type="group">
             <control type="image">
                 <include>FullscreenDimensions</include>
-                <colordiffuse>white6</colordiffuse>
+                <colordiffuse>black</colordiffuse>
                 <visible>Control.HasFocus(22222) | Control.HasFocus(22223)</visible>
+                <animation effect="fade" start="100" end="70" time="50" condition="!Control.HasFocus(9000)">Conditional</animation>
                 <include>Animation_VisibleChange400</include>
-                <texture>common/black.png</texture>
+                <texture>common/white.png</texture>
             </control>
             <control type="image">
                 <fadetime>600</fadetime>

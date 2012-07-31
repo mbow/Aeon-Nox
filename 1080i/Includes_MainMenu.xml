@@ -1611,8 +1611,7 @@
         <orientation>horizontal</orientation>
         <animation effect="slide" start="0,0" end="-302,0" time="400" tween="cubic" easing="inout" condition="Skin.HasSetting(Nox.biggergap)">Conditional</animation>
         <animation effect="fade" start="0" end="100" time="200">Visible</animation>
-        <animation effect="fade" start="100" end="30" time="200" condition="[Window.IsVisible(1113) | ControlGroup(9001).HasFocus | Control.HasFocus(8000)]">conditional</animation>
-        <animation effect="fade" start="100" end="0" time="200" condition="Control.HasFocus(8003)">conditional</animation>
+        <animation effect="fade" start="100" end="30" time="200" condition="[Window.IsVisible(1113) | ControlGroup(9001).HasFocus | Control.HasFocus(8000) | Control.HasFocus(7000) | ControlGroup(6000).HasFocus | ControlGroup(5000).HasFocus]">conditional</animation>
         <itemlayout height="225" width="250" condition="Skin.HasSetting(Nox.mainmenuicons)">
             <control type="image">
                 <posx>252</posx>
