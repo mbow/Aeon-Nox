@@ -488,6 +488,7 @@
                     <control type="button">
                         <posx>38</posx>
                         <posy>0</posy>
+                        <colordiffuse>white</colordiffuse>
                         <width>100</width>
                         <height>100</height>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonFirst.png</texturenofocus>
@@ -497,6 +498,7 @@
                         <posy>0</posy>
                         <width>100</width>
                         <height>100</height>
+                        <colordiffuse>white</colordiffuse>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonFRW.png</texturenofocus>
                     </control>
                     <control type="togglebutton">
@@ -506,6 +508,7 @@
                         <height>100</height>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonPause.png</texturenofocus>
                         <usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
+                        <colordiffuse>white</colordiffuse>
                         <alttexturenofocus>special://skin/extras/BigIcons/ButtonPlay.png</alttexturenofocus>
                     </control>
                     <control type="button">
@@ -513,6 +516,7 @@
                         <posy>0</posy>
                         <width>100</width>
                         <height>100</height>
+                        <colordiffuse>white</colordiffuse>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonStop.png</texturenofocus>
                     </control>
                     <control type="button">
@@ -520,6 +524,7 @@
                         <posy>0</posy>
                         <width>100</width>
                         <height>100</height>
+                        <colordiffuse>white</colordiffuse>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonFFW.png</texturenofocus>
                     </control>
                     <control type="button">
@@ -528,6 +533,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texturenofocus>special://skin/extras/BigIcons/ButtonEnd.png</texturenofocus>
+                        <colordiffuse>white</colordiffuse>
                     </control>
                 </control>
                 <control type="grouplist">
@@ -555,6 +561,7 @@
                         <texturenofocus>special://skin/extras/BigIcons/Subtitle.png</texturenofocus>
                         <alttexturenofocus>special://skin/extras/BigIcons/Subtitle.png</alttexturenofocus>
                         <usealttexture>IsEmpty(Skin.String(Nox.SubtitleScript_Path))</usealttexture>
+                        <colordiffuse>white</colordiffuse>
                     </control>
                     <control type="button">
                         <posx>0</posx>
@@ -564,6 +571,7 @@
                         <texturenofocus>special://skin/extras/BigIcons/dvdmenu.png</texturenofocus>
                         <enable>VideoPlayer.HasMenu</enable>
                         <animation effect="fade" start="100" end="50" time="100" condition="!VideoPlayer.HasMenu">Conditional</animation>
+                        <colordiffuse>white</colordiffuse>
                     </control>
                     <control type="button">
                         <posx>0</posx>
@@ -571,6 +579,7 @@
                         <width>100</width>
                         <height>100</height>
                         <texturenofocus>special://skin/extras/BigIcons/Gears.png</texturenofocus>
+                        <colordiffuse>white</colordiffuse>
                     </control>
                 </control>
                 <control type="grouplist" id="650">
